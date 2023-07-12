@@ -5,13 +5,14 @@ import remarkFrontmatter from "remark-frontmatter";
 import remarkHtml from "remark-html";
 import remarkParse from "remark-parse";
 import remarkParseFrontmatter from "remark-parse-frontmatter";
-import { unified, VFileWithOutput } from "unified";
+import { unified } from "unified";
 import { Post } from "./templates/Post.jsx";
 import React from "react";
 import { Index } from "./templates/Index.jsx";
 import { existsSync, watch } from "node:fs";
 import { PostData } from "./types.js";
 import liveServer from "live-server";
+import remarkFigureCaption from "@microflash/remark-figure-caption";
 
 const POSTS_DIR = "./posts";
 const BUILD_DIR = "./build";
@@ -41,6 +42,7 @@ async function build(isWatch: boolean) {
           .use(remarkParse)
           .use(remarkFrontmatter, ["yaml"])
           .use(remarkParseFrontmatter)
+          .use(remarkFigureCaption)
           .use(remarkHtml)
           .process(postContent);
 

@@ -12,6 +12,7 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "@microflash/remark-figure-caption": "^1.0.0",
     "@types/live-server": "^1.2.1",
     "@types/node": "^20.4.1",
     "@types/react": "^18.2.14",

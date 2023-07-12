@@ -1,9 +1,9 @@
 ---
 title: "Visiting Oahu: 2012"
 date: "2015-01-22"
-categories: 
+categories:
   - "travel"
-tags: 
+tags:
   - "hawaii"
   - "oahu"
 ---
@@ -34,6 +34,6 @@ Another must visit is Pearl Harbor. The tour is free and a very moving and touch
 
 If you live on the west coast Hawaii is a perfect winter destination with lots of deals on airfare. I would suggest using Airbnb or other condo sites to find a place. This is much more cost effective than a hotel.
 
-\[caption id="attachment\_926" align="aligncenter" width="300"\][![Wells was very popular with the ladies! ](images/417112_931254341874_870460647_n-300x225.jpg)](https://letkidstravel.com/wp-content/uploads/2015/01/417112_931254341874_870460647_n.jpg) Wells was very popular with the ladies!\[/caption\]
+[![Wells was very popular with the ladies! ](images/417112_931254341874_870460647_n-300x225.jpg)](https://letkidstravel.com/wp-content/uploads/2015/01/417112_931254341874_870460647_n.jpg)
 
 If you have any questions feel free to ask or message!

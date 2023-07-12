@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
+  '@microflash/remark-figure-caption':
+    specifier: ^1.0.0
+    version: 1.0.0
   '@types/live-server':
     specifier: ^1.2.1
     version: 1.2.1
@@ -67,6 +70,18 @@ packages:
     requiresBuild: true
     dev: true
     optional: true
+
+  /@microflash/remark-figure-caption@1.0.0:
+    resolution: {integrity: sha512-mjyxJ5ncpHTfrqKL+W/kcnVhm6ww0zT5X3Lgfl2LSztR5fxt0b0WSS2mskGiAbQsHsdzo70tMA9qT4qafA99vQ==}
+    dependencies:
+      hast-util-whitespace: 2.0.1
+      remark-parse: 10.0.2
+      unified: 10.1.2
+      unist-util-remove: 3.1.1
+      unist-util-visit: 4.1.2
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
 
   /@types/debug@4.1.8:
     resolution: {integrity: sha512-/vPO1EPOs306Cvhwv7KfVfYvOJqA/S/AXjaHQiJboCZzcNDb+TIJFN9/2C9DZ//ijSKWioNyUxD792QmDJ+HKQ==}
@@ -2114,6 +2129,14 @@ packages:
     resolution: {integrity: sha512-kUBE91efOWfIVBo8xzh/uZQ7p9ffYRtUbMRZBNFYwf0RK8koUMx6dGUfwylLOKmaT2cs4wSW96QoYUSXAyEtpg==}
     dependencies:
       '@types/unist': 2.0.7
+    dev: true
+
+  /unist-util-remove@3.1.1:
+    resolution: {integrity: sha512-kfCqZK5YVY5yEa89tvpl7KnBBHu2c6CzMkqHUrlOqaRgGOMp0sMvwWOVrbAtj03KhovQB7i96Gda72v/EFE0vw==}
+    dependencies:
+      '@types/unist': 2.0.7
+      unist-util-is: 5.2.1
+      unist-util-visit-parents: 5.1.3
     dev: true
 
   /unist-util-stringify-position@3.0.3:

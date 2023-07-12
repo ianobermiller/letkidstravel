@@ -1,9 +1,9 @@
 ---
 title: "Traveling Abroad: Aphrodisias"
 date: "2014-10-17"
-categories: 
+categories:
   - "travel"
-tags: 
+tags:
   - "turkey"
 ---
 
@@ -11,22 +11,22 @@ From [Pamukkale](http://youngmodernmama.com/2014/10/traveling-abroad-pamukkale/ 
 
 [![10257097_10100612594886934_3102461613565692220_o](images/10257097_10100612594886934_3102461613565692220_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10257097_10100612594886934_3102461613565692220_o.jpg)
 
-\[caption id="attachment\_631" align="aligncenter" width="300"\][![Family picture in front of the ](images/10372962_10100612594926854_7838770440303923386_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10372962_10100612594926854_7838770440303923386_o.jpg) Family picture in front of the theater\[/caption\]
+[![Family picture in front of the ](images/10372962_10100612594926854_7838770440303923386_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10372962_10100612594926854_7838770440303923386_o.jpg)
 
-\[caption id="attachment\_624" align="aligncenter" width="300"\][![Ian standing in the entrance to the race track](images/10348790_10100612593235244_5565654070036035765_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10348790_10100612593235244_5565654070036035765_o.jpg) Ian standing in the entrance to the stadium\[/caption\]
+[![Ian standing in the entrance to the race track](images/10348790_10100612593235244_5565654070036035765_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10348790_10100612593235244_5565654070036035765_o.jpg)
 
 It was one of our favorite sites to visit due to the freedom with which you are left to explore the city. There are no guards except inside the museum. You are able to walk and explore where most other places would keep you at a distance. It was a great perspective to be able to put yourself where others once walked, to stand on the stage or walk where chariot races were held. Of course with that freedom comes the responsibility to treat the ruins with respect and not do anything that would spoil the experience for the next visitor. And, as far as we could tell, most people did just that, and despite a fair amount of visitors each year, Aphrodisias still feels pristine.
 
-\[caption id="attachment\_634" align="aligncenter" width="300"\][![10010189_10100612594602504_7037608416473061047_o (1)](images/10010189_10100612594602504_7037608416473061047_o-1-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10010189_10100612594602504_7037608416473061047_o-1.jpg) Me and the kids at the Sebasteion\[/caption\]
+[![10010189_10100612594602504_7037608416473061047_o (1)](images/10010189_10100612594602504_7037608416473061047_o-1-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10010189_10100612594602504_7037608416473061047_o-1.jpg)
 
-\[caption id="attachment\_626" align="aligncenter" width="200"\][![10339268_10100612593504704_2886118472340502449_o](images/10339268_10100612593504704_2886118472340502449_o-200x300.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10339268_10100612593504704_2886118472340502449_o.jpg) The monumental gateway, or tetrapylon\[/caption\]
+[![10339268_10100612593504704_2886118472340502449_o](images/10339268_10100612593504704_2886118472340502449_o-200x300.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10339268_10100612593504704_2886118472340502449_o.jpg)
 
-\[caption id="attachment\_629" align="aligncenter" width="200"\][![Wells as another statue](images/10357737_10100612595211284_9065516936186951050_o-1-200x300.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10357737_10100612595211284_9065516936186951050_o-1.jpg) Wells as another statue\[/caption\]
+[![Wells as another statue](images/10357737_10100612595211284_9065516936186951050_o-1-200x300.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10357737_10100612595211284_9065516936186951050_o-1.jpg)
 
 We had our stroller during the trip and it was useful because it is an expansive city and we did not want to miss anything. There is also a museum there with some of the more delicate pieces. We left that to the end because our time was limited and we wanted to make sure that we saw the city first.
 
-\[caption id="attachment\_628" align="aligncenter" width="200"\][![Isla Athena next to Athena](images/10357698_10100612593589534_9058399154384422552_o-200x300.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10357698_10100612593589534_9058399154384422552_o.jpg) Isla Athena next to Athena\[/caption\]
+[![Isla Athena next to Athena](images/10357698_10100612593589534_9058399154384422552_o-200x300.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10357698_10100612593589534_9058399154384422552_o.jpg)
 
-\[caption id="attachment\_625" align="aligncenter" width="300"\][![10298523_10100612593839034_4137074300677359035_o](images/10298523_10100612593839034_4137074300677359035_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10298523_10100612593839034_4137074300677359035_o.jpg) Sarcophagi\[/caption\]
+[![10298523_10100612593839034_4137074300677359035_o](images/10298523_10100612593839034_4137074300677359035_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10298523_10100612593839034_4137074300677359035_o.jpg)
 
 We brought our own food and water on the trip. There were not a lot of options there and most museums are overpriced when it comes to those necessitates. Overall, even though traveling there is a huge hassle, it was well worth it to experience one of our favorite archaeological sites of all time. Our pictures from this part are some of our favorite and I hope you enjoy. Do ancient ruins interest you?

@@ -1,9 +1,9 @@
 ---
 title: "Traveling Abroad: Pamukkale"
 date: "2014-10-10"
-categories: 
+categories:
   - "travel"
-tags: 
+tags:
   - "denizli"
   - "hierapolis"
   - "pamukkale"
@@ -21,18 +21,18 @@ The hotel we stayed at was one of the better ones in our Turkish visit. The bath
 
 Now on to the main reason for being there, Pamukkale of course! My husband did most of the planning for this trip so I was a bit surprised when we arrived and there was ancient Roman ruins of Hierapolis. The ruins are very well kept and restored. It is definitely worth exploring but you need to carve out a good chunk of time as the ruins are spread out from each other and require a bit of a hike and sometimes uphill. We did not bring our stroller so we were unable to explore as much as we like. We did see the theater which overlooking the mountains was awe inspiring. I understood why they built a city so high with views and thermal pools to use.[](https://letkidstravel.com/wp-content/uploads/2014/10/10258706_10100612613085464_6732393793549920861_o.jpg)
 
-\[caption id="attachment\_601" align="aligncenter" width="300"\][![10257516_10100612612806024_3319060915963446566_o](images/10257516_10100612612806024_3319060915963446566_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10257516_10100612612806024_3319060915963446566_o.jpg) Theater at Hierapholis\[/caption\]
+[![10257516_10100612612806024_3319060915963446566_o](images/10257516_10100612612806024_3319060915963446566_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10257516_10100612612806024_3319060915963446566_o.jpg)
 
-\[caption id="attachment\_595" align="aligncenter" width="300"\][![View from Hierapholis](images/10380859_10100612613000634_3953226067474715914_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10380859_10100612613000634_3953226067474715914_o.jpg) View from Hierapholis\[/caption\]
+[![View from Hierapholis](images/10380859_10100612613000634_3953226067474715914_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10380859_10100612613000634_3953226067474715914_o.jpg)
 
 After we finished exploring the city we were exhausted! However, it was time to travel down the thermal pools to get back to town. Yes, that is the popular way to get down and it was a daunting feat with a baby strapped to you. I chose to have Isla strapped to me, rather than having to carry Wells down. It was scary at times but a once in a lifetime experience and we made it safely down the mountain, traveling from pool to pool. There is a kind of carved staircase where water runs through.
 
-\[caption id="attachment\_600" align="aligncenter" width="300"\][![10298656_10100612613025584_6166698022568675344_o](images/10298656_10100612613025584_6166698022568675344_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10298656_10100612613025584_6166698022568675344_o.jpg) Family picture before heading down the travertines\[/caption\]
+[![10298656_10100612613025584_6166698022568675344_o](images/10298656_10100612613025584_6166698022568675344_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10298656_10100612613025584_6166698022568675344_o.jpg)
 
-\[caption id="attachment\_599" align="aligncenter" width="300"\][![10258706_10100612613290054_8874794629200408867_o](images/10258706_10100612613290054_8874794629200408867_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10258706_10100612613290054_8874794629200408867_o.jpg) Isla and I half way down the travertines\[/caption\]
+[![10258706_10100612613290054_8874794629200408867_o](images/10258706_10100612613290054_8874794629200408867_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10258706_10100612613290054_8874794629200408867_o.jpg)
 
-\[caption id="attachment\_598" align="aligncenter" width="200"\][![10295944_10100612613389854_6888715810503843914_o](images/10295944_10100612613389854_6888715810503843914_o-200x300.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10295944_10100612613389854_6888715810503843914_o.jpg) Wells enjoying the thermal pool\[/caption\]
+[![10295944_10100612613389854_6888715810503843914_o](images/10295944_10100612613389854_6888715810503843914_o-200x300.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10295944_10100612613389854_6888715810503843914_o.jpg)
 
-\[caption id="attachment\_597" align="aligncenter" width="200"\][![10339362_10100612613928774_1286593502431119356_o](images/10339362_10100612613928774_1286593502431119356_o-200x300.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10339362_10100612613928774_1286593502431119356_o.jpg) How Wells got down most of the travertines\[/caption\]
+[![10339362_10100612613928774_1286593502431119356_o](images/10339362_10100612613928774_1286593502431119356_o-200x300.jpg)](https://letkidstravel.com/wp-content/uploads/2014/10/10339362_10100612613928774_1286593502431119356_o.jpg)
 
 This was another one of our favorite experiences. There are so many beautiful ancient sites to see in Turkey that I couldn't fit the day trip we took in this post but considering it was my husband's favorite site there will be more than enough to discuss. I hope you enjoy our pictures and experience. Feel free to ask any questions!

@@ -1,9 +1,9 @@
 ---
 title: "Traveling Abroad: Santorini"
 date: "2014-11-14"
-categories: 
+categories:
   - "travel"
-tags: 
+tags:
   - "ferry"
   - "greece"
   - "gyro"
@@ -17,26 +17,26 @@ The hotel served breakfast, and the owner, Maria is so friendly. She made us a 
 
 Akrotiri was an ancient civilization buried by a volcano and preserved until recent excavations. All of the inhabitants had already left so it appears they knew it was coming. It was a wealthy civilization. The site is completely covered for preservation. The guides at this site are knowledgeable and willing to answer questions you may have. We did not take our stroller because there were a lot of stairs going around the site. After we finished we walked down to the water where a beautiful church was. The water is truly beautiful in Greece.
 
-\[caption id="attachment\_750" align="aligncenter" width="300"\][![Ancient Akrotiri ](images/10387076_10100616373444674_1654628670287220847_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/11/10387076_10100616373444674_1654628670287220847_o.jpg) Ancient Akrotiri\[/caption\]
+[![Ancient Akrotiri ](images/10387076_10100616373444674_1654628670287220847_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/11/10387076_10100616373444674_1654628670287220847_o.jpg)
 
-\[caption id="attachment\_749" align="aligncenter" width="300"\][![Model of the complete site ](images/10339398_10100616373000564_2380320055264347734_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/11/10339398_10100616373000564_2380320055264347734_o.jpg) Model of the complete site\[/caption\]
+[![Model of the complete site ](images/10339398_10100616373000564_2380320055264347734_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/11/10339398_10100616373000564_2380320055264347734_o.jpg)
 
-\[caption id="attachment\_748" align="aligncenter" width="300"\][![Isla and I enjoying the site ](images/10258589_10100616373923714_1512025613553452730_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/11/10258589_10100616373923714_1512025613553452730_o.jpg) Isla and I enjoying the site\[/caption\]
+[![Isla and I enjoying the site ](images/10258589_10100616373923714_1512025613553452730_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/11/10258589_10100616373923714_1512025613553452730_o.jpg)
 
-\[caption id="attachment\_751" align="aligncenter" width="300"\][![Beautiful church by the water ](images/1913291_10100616371279014_8122851612237809172_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/11/1913291_10100616371279014_8122851612237809172_o.jpg) Beautiful church by the water\[/caption\]
+[![Beautiful church by the water ](images/1913291_10100616371279014_8122851612237809172_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/11/1913291_10100616371279014_8122851612237809172_o.jpg)
 
 After the bus ride back we got dinner in town and walked along the caldera. Of course we had more gyros which were equally as good. The prices on Santorini are a bit more expensive than other islands. It is more of a well known tourist destination due to cruise ships and a wealthy resort town. We were able to catch the sun set over the caldera. It is really beautiful along the cliffs.
 
-\[caption id="attachment\_747" align="aligncenter" width="300"\][![Sunset along the Caldera](images/10333408_10100616345929814_6807754991468184082_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/11/10333408_10100616345929814_6807754991468184082_o.jpg) Sunset along the Caldera\[/caption\]
+[![Sunset along the Caldera](images/10333408_10100616345929814_6807754991468184082_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/11/10333408_10100616345929814_6807754991468184082_o.jpg)
 
 The next morning we had another excellent breakfast and explored the town as we did not have time the day before. There is not a lot to do on Santorini and it is more about relaxation as evident by the many cliffside resorts. You kind of just wander around the town and go up and down the different alleys. This is definitely not a stroller town as there are stairs and tight alleys to get to some of the shops. Santorini has bakeries and we bought some cookies for dessert. Also, we had more gyros. There are plenty of options, so it is best to see where the locals eat and where people are lining up.
 
-\[caption id="attachment\_752" align="aligncenter" width="300"\][![View from the Caldera](images/10265492_10100616358100424_6538745381612269474_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/11/10265492_10100616358100424_6538745381612269474_o.jpg) View from the Caldera\[/caption\]
+[![View from the Caldera](images/10265492_10100616358100424_6538745381612269474_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/11/10265492_10100616358100424_6538745381612269474_o.jpg)
 
-\[caption id="attachment\_746" align="aligncenter" width="300"\][![How building supplies are transported along the Caldera](images/10298491_10100616342242204_7214106487752874359_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/11/10298491_10100616342242204_7214106487752874359_o.jpg) How building supplies are transported along the Caldera\[/caption\]
+[![How building supplies are transported along the Caldera](images/10298491_10100616342242204_7214106487752874359_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/11/10298491_10100616342242204_7214106487752874359_o.jpg)
 
-\[caption id="attachment\_745" align="aligncenter" width="200"\][![Wells enjoying one of many gyros](images/10317834_10100616329407924_6583224126251929925_o-200x300.jpg)](https://letkidstravel.com/wp-content/uploads/2014/11/10317834_10100616329407924_6583224126251929925_o.jpg) Wells enjoying one of many gyros\[/caption\]
+[![Wells enjoying one of many gyros](images/10317834_10100616329407924_6583224126251929925_o-200x300.jpg)](https://letkidstravel.com/wp-content/uploads/2014/11/10317834_10100616329407924_6583224126251929925_o.jpg)
 
 There is a funicular that goes to the port where the cruise ships dock. I believe it is also walkable but we did not do that. We were content with enjoying the view and soaking in the culture. After another great sunset it was time to call it a night. The next day after breakfast we were dropped off at the port to catch a ferry for our next island adventure!
 
-\[caption id="attachment\_744" align="aligncenter" width="300"\][![Goodbye Santorini ](images/10275431_10100616339622454_1384821890002551076_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/11/10275431_10100616339622454_1384821890002551076_o.jpg) Goodbye Santorini\[/caption\]
+[![Goodbye Santorini ](images/10275431_10100616339622454_1384821890002551076_o-300x200.jpg)](https://letkidstravel.com/wp-content/uploads/2014/11/10275431_10100616339622454_1384821890002551076_o.jpg)
