@@ -47,13 +47,15 @@ async function build(isWatch: boolean) {
           .process(postContent);
 
         const frontmatter = md.data.frontmatter as Record<string, string>;
-        return {
+
+        const post: PostData = {
           path,
           html: md.toString(),
           title: frontmatter.title,
           date: frontmatter.date,
           slug: postEntry.name,
         };
+        return post;
       })
     );
 
