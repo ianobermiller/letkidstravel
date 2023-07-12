@@ -1,0 +1,30 @@
+{
+  "name": "letkidstravel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsm build.tsx",
+    "watch": "tsm build.tsx --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/live-server": "^1.2.1",
+    "@types/node": "^20.4.1",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.7",
+    "live-server": "^1.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remark-frontmatter": "^4.0.1",
+    "remark-html": "^15.0.2",
+    "remark-parse": "^10.0.2",
+    "remark-parse-frontmatter": "^1.0.3",
+    "tsm": "^2.3.0",
+    "typescript": "^5.1.6",
+    "unified": "^10.1.2"
+  }
+}
