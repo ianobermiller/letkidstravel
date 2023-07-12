@@ -1,9 +1,9 @@
 ---
-title: "Traveling Abroad: Athens"
+title: "Athens, Greece"
 date: "2015-01-10"
-categories: 
+categories:
   - "travel"
-tags: 
+tags:
   - "athens"
   - "greece"
   - "ruins"

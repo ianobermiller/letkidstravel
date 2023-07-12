@@ -1,5 +1,5 @@
 ---
-title: "Traveling Abroad: Istanbul"
+title: "Istanbul, Turkey"
 date: "2014-09-19"
 categories:
   - "travel"

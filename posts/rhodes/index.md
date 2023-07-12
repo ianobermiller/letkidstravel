@@ -1,5 +1,5 @@
 ---
-title: "Traveling Abroad: Rhodes"
+title: "Rhodes, Greece"
 date: "2014-11-03"
 categories:
   - "travel"

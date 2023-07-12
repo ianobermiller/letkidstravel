@@ -1,5 +1,5 @@
 ---
-title: "Traveling Abroad: Cappadocia"
+title: "Cappadocia, Turkey"
 date: "2014-09-26"
 categories:
   - "travel"

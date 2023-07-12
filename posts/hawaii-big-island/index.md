@@ -1,5 +1,5 @@
 ---
-title: "Hawaii: Big Island 2013"
+title: "Big Island, Hawaii 2013"
 date: "2015-02-05"
 categories:
   - "travel"

@@ -1,5 +1,5 @@
 ---
-title: "Traveling Abroad: Aphrodisias"
+title: "Aphrodisias, Turkey"
 date: "2014-10-17"
 categories:
   - "travel"

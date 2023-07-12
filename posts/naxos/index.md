@@ -1,5 +1,5 @@
 ---
-title: "Traveling Abroad: Easter on Naxos"
+title: "Easter on Naxos, Greece"
 date: "2015-01-02"
 categories:
   - "travel"

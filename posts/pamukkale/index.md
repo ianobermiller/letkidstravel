@@ -1,5 +1,5 @@
 ---
-title: "Traveling Abroad: Pamukkale"
+title: "Pamukkale, Turkey"
 date: "2014-10-10"
 categories:
   - "travel"

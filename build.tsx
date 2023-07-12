@@ -57,8 +57,8 @@ async function build(isWatch: boolean) {
       })
     );
 
-    await Promise.all(
-      posts.map(async (post) => {
+    await Promise.all([
+      ...posts.map(async (post) => {
         const outputDir = join(BUILD_DIR, post.slug);
         await mkdir(outputDir, { recursive: true });
 
@@ -70,10 +70,9 @@ async function build(isWatch: boolean) {
           });
         }
         await writeFile(join(outputDir, "index.html"), output);
-      })
-    );
-
-    await writeIndex(posts);
+      }),
+      writeIndex(posts),
+    ]);
   });
 
   await buildAndWatch("public", () =>

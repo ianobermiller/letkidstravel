@@ -1,5 +1,5 @@
 ---
-title: "Traveling Abroad: Santorini"
+title: "Santorini, Greece"
 date: "2014-11-14"
 categories:
   - "travel"

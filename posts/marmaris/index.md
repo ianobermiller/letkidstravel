@@ -1,5 +1,5 @@
 ---
-title: "Traveling Abroad: Marmaris"
+title: "Marmaris, Turkey"
 date: "2014-10-24"
 categories:
   - "travel"

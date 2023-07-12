@@ -1,5 +1,5 @@
 ---
-title: "Visiting Oahu: 2012"
+title: "Oahu, Hawaii 2012"
 date: "2015-01-22"
 categories:
   - "travel"

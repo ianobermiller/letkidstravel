@@ -1,5 +1,5 @@
 ---
-title: "Traveling Abroad: Ephesus and Selcuk"
+title: "Ephesus and Selcuk"
 date: "2014-10-03"
 categories:
   - "travel"
