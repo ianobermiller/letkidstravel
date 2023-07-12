@@ -14,4 +14,4 @@ Well, with planning for Europe I had no time to research airline tickets. Instea
 
 We are planning to make a few stops along the way to see Yellowstone and Mt. Rushmore but even with those breaks it will be a lot of straight driving! How to keep my strong willed daughter happy is a question I ponder daily. I keep hoping that a miracle will occur and she will become a content baby. Any ideas on ways to keep an eleven month old entertained?
 
-[![Hoping they will be like this on the trip!](images/1969290_10100626229498064_2202836429078370054_n-168x300.jpg)](https://letkidstravel.com/wp-content/uploads/2014/06/1969290_10100626229498064_2202836429078370054_n.jpg)
+[![Hoping they will be like this on the trip!](images/1969290_10100626229498064_2202836429078370054_n-168x300.jpg)](images/1969290_10100626229498064_2202836429078370054_n.jpg)

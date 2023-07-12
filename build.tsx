@@ -13,6 +13,7 @@ import { existsSync, watch } from "node:fs";
 import { PostData } from "./types.js";
 import liveServer from "live-server";
 import remarkFigureCaption from "@microflash/remark-figure-caption";
+import { execSync } from "node:child_process";
 
 const POSTS_DIR = "./posts";
 const BUILD_DIR = "./build";
@@ -36,7 +37,22 @@ async function build(isWatch: boolean) {
     const posts = await Promise.all(
       postEntries.map(async (postEntry) => {
         const path = join(POSTS_DIR, postEntry.name);
-        const postContent = await readFile(join(path, "index.md"), "utf-8");
+        let postContent = await readFile(join(path, "index.md"), "utf-8");
+
+        // await mkdir(join(path, "images"), { recursive: true });
+        // await Promise.all(
+        //   Array.from(
+        //     postContent.matchAll(
+        //       /https:\/\/letkidstravel.com\/wp-content\/uploads\/[^.]+\.jpg/g
+        //     ),
+        //     async ([url]) => {
+        //       const relativePath = join("images", url.split("/").pop());
+        //       execSync(`curl ${url} -o ${join(path, relativePath)}`);
+        //       postContent = postContent.replace(url, relativePath);
+        //     }
+        //   )
+        // );
+        // await writeFile(join(path, "index.md"), postContent);
 
         const md = await unified()
           .use(remarkParse)
