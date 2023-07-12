@@ -19,4 +19,4 @@ The time change was not that difficult of an adjustment for the kids. Honestly, 
 
 I think with all trips there is good and bad, you just have to be able to do deal with it and hope the good in the end outweighs the bad. Hopefully, after I write my next post of all the fun, touristy things we did that will be my conclusion in the end. Here is a little preview!
 
-[![Wells and Isla at Bryant Park.](images/10807606_10100774840939544_1372221577_o-168x300.jpg)](images/10807606_10100774840939544_1372221577_o.jpg)
+![Wells and Isla at Bryant Park.](images/10807606_10100774840939544_1372221577_o.jpg)
