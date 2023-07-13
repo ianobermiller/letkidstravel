@@ -36,22 +36,7 @@ async function build(isWatch: boolean) {
     const posts = await Promise.all(
       postEntries.map(async (postEntry) => {
         const path = join(POSTS_DIR, postEntry.name);
-        let postContent = await readFile(join(path, "index.md"), "utf-8");
-
-        // await mkdir(join(path, "images"), { recursive: true });
-        // await Promise.all(
-        //   Array.from(
-        //     postContent.matchAll(
-        //       /https:\/\/letkidstravel.com\/wp-content\/uploads\/[^.]+\.jpg/g
-        //     ),
-        //     async ([url]) => {
-        //       const relativePath = join("images", url.split("/").pop());
-        //       execSync(`curl ${url} -o ${join(path, relativePath)}`);
-        //       postContent = postContent.replace(url, relativePath);
-        //     }
-        //   )
-        // );
-        // await writeFile(join(path, "index.md"), postContent);
+        const postContent = await readFile(join(path, "index.md"), "utf-8");
 
         const md = await unified()
           .use(remarkParse)
