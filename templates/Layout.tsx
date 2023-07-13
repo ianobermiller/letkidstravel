@@ -1,11 +1,12 @@
 import { ReactNode } from "react";
 
 interface Props {
+  backgroundImage?: string;
   children: ReactNode;
   title: string;
 }
 
-export function Layout({ children, title }: Props) {
+export function Layout({ backgroundImage, children, title }: Props) {
   return (
     <html lang="en">
       <head>
@@ -16,7 +17,14 @@ export function Layout({ children, title }: Props) {
       <link rel="stylesheet" href="/index.css" />
       <body>
         <h1>
-          <a href="/">Let Kids Travel</a>
+          <a
+            href="/"
+            style={{
+              backgroundImage: `url(${backgroundImage || "/images/hero.webp"})`,
+            }}
+          >
+            Let Kids Travel
+          </a>
         </h1>
         {children}
       </body>

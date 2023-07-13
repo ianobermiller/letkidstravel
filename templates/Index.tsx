@@ -11,7 +11,13 @@ export function Index({ posts }: Props) {
       <ul className="post-list">
         {posts.map((post) => (
           <li key={post.path}>
-            <a href={post.slug}>{post.title}</a>
+            <a href={post.slug}>
+              <div
+                className="thumbnail"
+                style={{ backgroundImage: `url(${post.heroImageUrl})` }}
+              />
+              <div className="title">{post.title}</div>
+            </a>
           </li>
         ))}
       </ul>
