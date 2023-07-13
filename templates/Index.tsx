@@ -1,6 +1,5 @@
-import React from "react";
-import { Layout } from "./Layout.jsx";
 import { PostData } from "../types.js";
+import { Layout } from "./Layout.jsx";
 
 interface Props {
   posts: Array<PostData>;
