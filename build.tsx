@@ -1,19 +1,18 @@
+import remarkFigureCaption from "@microflash/remark-figure-caption";
+import liveServer from "live-server";
+import { existsSync, watch } from "node:fs";
 import { cp, mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import { join } from "node:path";
+import React from "react";
 import { renderToString } from "react-dom/server";
 import remarkFrontmatter from "remark-frontmatter";
 import remarkHtml from "remark-html";
 import remarkParse from "remark-parse";
 import remarkParseFrontmatter from "remark-parse-frontmatter";
 import { unified } from "unified";
-import { Post } from "./templates/Post.jsx";
-import React from "react";
 import { Index } from "./templates/Index.jsx";
-import { existsSync, watch } from "node:fs";
+import { Post } from "./templates/Post.jsx";
 import { PostData } from "./types.js";
-import liveServer from "live-server";
-import remarkFigureCaption from "@microflash/remark-figure-caption";
-import { execSync } from "node:child_process";
 
 const POSTS_DIR = "./posts";
 const BUILD_DIR = "./build";
@@ -21,11 +20,11 @@ const BUILD_DIR = "./build";
 async function build(isWatch: boolean) {
   await rm(BUILD_DIR, { force: true, recursive: true });
 
-  async function buildAndWatch(file: string, callback: () => Promise<void>) {
+  async function buildAndWatch(path: string, callback: () => Promise<void>) {
     await callback();
 
     if (isWatch) {
-      watch(file, callback);
+      watch(path, { recursive: true }, callback);
     }
   }
 
