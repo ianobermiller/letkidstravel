@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsm build.tsx",
-    "watch": "tsm build.tsx --watch"
+    "build": "tsx build.tsx",
+    "watch": "tsx watch build.tsx --watch"
   },
   "keywords": [],
   "author": "",
@@ -24,7 +24,7 @@
     "remark-html": "^15.0.2",
     "remark-parse": "^10.0.2",
     "remark-parse-frontmatter": "^1.0.3",
-    "tsm": "^2.3.0",
+    "tsx": "^3.12.7",
     "typescript": "^5.1.6",
     "unified": "^10.1.2"
   }

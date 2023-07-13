@@ -10,8 +10,8 @@ import remarkHtml from "remark-html";
 import remarkParse from "remark-parse";
 import remarkParseFrontmatter from "remark-parse-frontmatter";
 import { unified } from "unified";
-import { Index } from "./templates/Index.jsx";
-import { Post } from "./templates/Post.jsx";
+import { Index } from "./templates/Index";
+import { Post } from "./templates/Post";
 import { PostData } from "./types.js";
 
 const POSTS_DIR = "./posts";
@@ -81,7 +81,7 @@ async function build(isWatch: boolean) {
     cp("public", BUILD_DIR, { recursive: true })
   );
 
-  isWatch && liveServer.start({ root: BUILD_DIR });
+  isWatch && liveServer.start({ root: BUILD_DIR, open: false });
 }
 
 async function writeIndex(posts: Array<PostData>) {
@@ -94,4 +94,4 @@ function renderPage(page: React.ReactElement) {
 ${renderToString(page)}`;
 }
 
-await build(process.argv.includes("--watch"));
+build(process.argv.includes("--watch"));

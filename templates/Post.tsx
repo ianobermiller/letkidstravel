@@ -1,5 +1,5 @@
-import type { PostData } from "../types.js";
-import { Layout } from "./Layout.jsx";
+import type { PostData } from "../types";
+import { Layout } from "./Layout";
 
 interface Props {
   post: PostData;

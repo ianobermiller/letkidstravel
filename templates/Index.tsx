@@ -1,5 +1,5 @@
-import { PostData } from "../types.js";
-import { Layout } from "./Layout.jsx";
+import { PostData } from "../types";
+import { Layout } from "./Layout";
 
 interface Props {
   posts: Array<PostData>;
