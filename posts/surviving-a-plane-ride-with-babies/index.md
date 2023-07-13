@@ -13,7 +13,7 @@ tags:
 
 As you may have guessed we love to travel. Our kids have been flying since they were infants so we've learned quickly what works to avoid the screaming, crying baby.
 
-![Baby Wells sleeping on daddy on one of his many plane rides.](images/377539_855421197104_338710709_n.jpg)
+![Baby Wells sleeping on daddy on one of his many plane rides.](images/377539_855421197104_338710709_n.webp)
 
 On the one hand, our son a calm, happy baby, and traveling with him was quite easy. Our daughter, on the other hand, is a completely different person. Here are some tips and lessons we have learned over dozens of flights:
 
