@@ -1,8 +1,6 @@
 ---
 title: "Road Trip, Part 1: Unfamiliar Territory"
 date: "2014-06-13"
-categories:
-  - "travel"
 tags:
   - "car-travel"
   - "road-trip"

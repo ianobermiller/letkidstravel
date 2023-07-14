@@ -1,8 +1,6 @@
 ---
 title: "Paros, Greece"
 date: "2014-12-12"
-categories:
-  - "travel"
 tags:
   - "greece"
 ---

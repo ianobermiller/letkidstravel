@@ -1,8 +1,6 @@
 ---
 title: "Traveling Stateside: New York City"
 date: "2014-11-21"
-categories:
-  - "travel"
 ---
 
 This will be a two part post and a little break from our European adventure which I promise to pick up on after these posts. Last week my husband was asked to fly to New York City with five days notice. Yes, you read that correctly, FIVE DAYS. I am still puzzled on why I agreed to this. It seemed like a nice break. We were not able to get direct flights so it would be a whole day of travel.

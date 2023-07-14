@@ -1,8 +1,6 @@
 ---
 title: "Rhodes, Greece"
 date: "2014-11-03"
-categories:
-  - "travel"
 tags:
   - "greece"
   - "gyro"
@@ -21,27 +19,27 @@ I think you need to brace yourselves for Greek museums. They are not as approac
 
 We visited the Archaeological Museum and the Palace of the Knights on the first day. I believe that you need to only see one of them and I would definitely chose the palace. While the building and grounds of the first are gorgeous the second museum surpassed it. There are beautiful mosaics in both, mainly pillaged from the island of Kos. The children were very good throughout the museums.
 
-![10369000_10100614721480224_4920485099134529661_o](images/10369000_10100614721480224_4920485099134529661_o.webp)
+![ ](images/10369000_10100614721480224_4920485099134529661_o.webp)
 
-![10333378_10100614721774634_7540254230675810954_o](images/10333378_10100614721774634_7540254230675810954_o.webp)
+![ ](images/10333378_10100614721774634_7540254230675810954_o.webp)
 
-![10259179_10100614722079024_4711141876991896684_o](images/10259179_10100614722079024_4711141876991896684_o.webp)
+![ ](images/10259179_10100614722079024_4711141876991896684_o.webp)
 
-![10383845_10100614722188804_1232399792353595404_o](images/10383845_10100614722188804_1232399792353595404_o.webp)
+![ ](images/10383845_10100614722188804_1232399792353595404_o.webp)
 
-![10257950_10100614722558064_4307973901106365083_o](images/10257950_10100614722558064_4307973901106365083_o.webp)
+![ ](images/10257950_10100614722558064_4307973901106365083_o.webp)
 
-![10358947_10100614722757664_6427444782475817006_o](images/10358947_10100614722757664_6427444782475817006_o.webp)
+![ ](images/10358947_10100614722757664_6427444782475817006_o.webp)
 
 Exploring Rhodes is another wonderful part of the experience. We loved wandering around the winding streets and experiencing the beauty and history of the old city. There are a few ruins to explore, including a nice walk along the former city moat (not stroller friendly), and many great views of the Mediterranean. Above all, Rhodes was probably the most peaceful part of the trip.
 
 ![Resting along the ruins](images/10333471_10100614723371434_3107565882942718353_o.webp)
 
-![10258925_10100614723775624_3829972633943088913_o](images/10258925_10100614723775624_3829972633943088913_o.webp)
+![ ](images/10258925_10100614723775624_3829972633943088913_o.webp)
 
 The day trip to Lindos is a definite must-see for the ruins high up on a hill. We did not bring our stroller because of the many stairs throughout the city and the hike to the top. It was definitely a journey to the top but worth it. However, if you do not feel up for a long steep hike then you can hire a donkey to get to the entrance of the site. I do not think it is worth it just to get through the city but that is always an option and maybe a novel experience. Not only were the sites interesting but you could see the cities surrounding it. It was breathtaking and you understood why they would build a city on top of such a site. On the way back we rewarded ourself with a gyro and ate it with a view.
 
-![10258734_10100614724060054_1459337853526345462_o](images/10258734_10100614724060054_1459337853526345462_o.webp)
+![ ](images/10258734_10100614724060054_1459337853526345462_o.webp)
 
 ![Wells loved seeing the city from above](images/10293846_10100614724094984_7599976652826820657_o.webp)
 
@@ -49,12 +47,12 @@ The day trip to Lindos is a definite must-see for the ruins high up on a hill. 
 
 Back in Rhodes, we had some extra time to explore a little outside the city to see the amphitheater and ruins of a temple. They were interesting to see if you have extra time but not a must-see.
 
-![1909186_10100614725217734_3734965499895797029_o](images/1909186_10100614725217734_3734965499895797029_o.webp)
+![ ](images/1909186_10100614725217734_3734965499895797029_o.webp)
 
 ![We were there on Palm Sunday. ](images/10259247_10100614725522124_7106538061403685956_o.webp)
 
-![10258227_10100614725851464_7042356783041808091_o](images/10258227_10100614725851464_7042356783041808091_o.webp)
+![ ](images/10258227_10100614725851464_7042356783041808091_o.webp)
 
-![10368972_10100614725976214_8434064343885441913_o](images/10368972_10100614725976214_8434064343885441913_o.webp)
+![ ](images/10368972_10100614725976214_8434064343885441913_o.webp)
 
 We loved our time in Rhodes. It is a beautiful city full of history and culture. We probably stayed a little longer than required, but it was nice to rest and soak it all in.

@@ -8,6 +8,17 @@ interface Props {
 export function Index({ posts }: Props) {
   return (
     <Layout title="Let Kids Travel">
+      <div className="home-header">
+        <h1>
+          <a href="/">Let Kids Travel</a>
+        </h1>
+        <div className="blurb">
+          👋 Hi, we’re Olivia and Ian. We travel with our four children enjoying
+          architecture, nature, baked goods, coffee, chocolate and most
+          importantly living for Jesus.
+        </div>
+      </div>
+
       <ul className="post-list">
         {posts.map((post) => (
           <li key={post.path}>

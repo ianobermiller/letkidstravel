@@ -33,7 +33,7 @@ async function build(isWatch: boolean) {
   buildAndWatch("posts", async () => {
     const postEntries = (
       await readdir(POSTS_DIR, { withFileTypes: true })
-    ).filter((e) => e.isDirectory);
+    ).filter((e) => e.isDirectory() && !e.name.startsWith("."));
 
     const posts = await Promise.all(
       postEntries.map(async (postEntry) => {
@@ -92,7 +92,7 @@ async function build(isWatch: boolean) {
     cp("public", BUILD_DIR, { recursive: true })
   );
 
-  isWatch && liveServer.start({ root: BUILD_DIR, open: false });
+  isWatch && liveServer.start({ root: BUILD_DIR, open: false, port: 3000 });
 }
 
 async function writeIndex(posts: Array<PostData>) {

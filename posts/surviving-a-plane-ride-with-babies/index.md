@@ -1,8 +1,6 @@
 ---
 title: "Surviving a plane ride with babies and toddlers"
 date: "2014-07-02"
-categories:
-  - "travel"
 tags:
   - "distractions"
   - "flying"

@@ -1,8 +1,6 @@
 ---
 title: "Athens, Greece"
 date: "2015-01-10"
-categories:
-  - "travel"
 tags:
   - "athens"
   - "greece"

@@ -1,8 +1,6 @@
 ---
 title: "Family Roadtrip Finished!"
 date: "2014-07-21"
-categories:
-  - "travel"
 tags:
   - "entertainment"
   - "road-trip"

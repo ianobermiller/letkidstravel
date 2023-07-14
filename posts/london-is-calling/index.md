@@ -1,8 +1,6 @@
 ---
 title: "London is Calling"
 date: "2015-07-02"
-categories:
-  - "travel"
 tags:
   - "europe"
   - "london"

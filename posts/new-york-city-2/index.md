@@ -1,8 +1,6 @@
 ---
 title: "Traveling Stateside: New York City Part 2"
 date: "2014-11-26"
-categories:
-  - "travel"
 tags:
   - "dinosaurs"
   - "musuems"

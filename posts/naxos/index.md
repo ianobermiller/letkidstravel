@@ -1,8 +1,6 @@
 ---
 title: "Easter on Naxos, Greece"
 date: "2015-01-02"
-categories:
-  - "travel"
 tags:
   - "greece"
   - "naxos"
@@ -10,7 +8,7 @@ tags:
 
 Easter is a big deal in Greece. We were told that we would probably be invited to a local family's festivities. Coming from America this was a totally foreign concept to us, and we didn't believe it would happen, although my husband was holding out hope.
 
-![10357645_10100620112731114_5994488491410993604_o](images/10357645_10100620112731114_5994488491410993604_o.webp)
+![ ](images/10357645_10100620112731114_5994488491410993604_o.webp)
 
 ![Love Isla's face in this picture](images/10295536_10100620111922734_3899609671944062412_o.webp)
 
