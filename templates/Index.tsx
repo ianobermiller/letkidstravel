@@ -13,9 +13,9 @@ export function Index({ posts }: Props) {
           <a href="/">Let Kids Travel</a>
         </h1>
         <div className="blurb">
-          👋 Hi, we’re Olivia and Ian. We travel with our four children enjoying
-          architecture, nature, baked goods, coffee, chocolate and most
-          importantly living for Jesus.
+          <span className="wave">👋</span>Hi, we’re Olivia and Ian. We travel
+          with our four children enjoying architecture, nature, baked goods,
+          coffee, chocolate and most importantly living for Jesus.
         </div>
       </div>
 

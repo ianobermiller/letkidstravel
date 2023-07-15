@@ -14,7 +14,13 @@ export function Layout({ children, title }: Props) {
         <title>{title}</title>
       </head>
       <link rel="stylesheet" href="/index.css" />
-      <body>{children}</body>
+      <body>
+        {children}
+        <footer>
+          Made with love freely given, graciously received, and joyfully shared.
+          Copyright &copy; {new Date().getFullYear()}.
+        </footer>
+      </body>
     </html>
   );
 }

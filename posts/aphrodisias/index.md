@@ -15,15 +15,15 @@ From [Pamukkale](http://youngmodernmama.com/2014/10/traveling-abroad-pamukkale/ 
 
 It was one of our favorite sites to visit due to the freedom with which you are left to explore the city. There are no guards except inside the museum. You are able to walk and explore where most other places would keep you at a distance. It was a great perspective to be able to put yourself where others once walked, to stand on the stage or walk where chariot races were held. Of course with that freedom comes the responsibility to treat the ruins with respect and not do anything that would spoil the experience for the next visitor. And, as far as we could tell, most people did just that, and despite a fair amount of visitors each year, Aphrodisias still feels pristine.
 
-![10010189_10100612594602504_7037608416473061047_o (1)](images/10010189_10100612594602504_7037608416473061047_o-1.webp)
+![ ](images/10010189_10100612594602504_7037608416473061047_o-1.webp)
 
 ![ ](images/10339268_10100612593504704_2886118472340502449_o.webp)
 
-![Wells as another statue](images/10357737_10100612595211284_9065516936186951050_o-1.webp)
+![Wells pretending to be a statue](images/10357737_10100612595211284_9065516936186951050_o-1.webp)
 
 We had our stroller during the trip and it was useful because it is an expansive city and we did not want to miss anything. There is also a museum there with some of the more delicate pieces. We left that to the end because our time was limited and we wanted to make sure that we saw the city first.
 
-![Isla Athena next to Athena](images/10357698_10100612593589534_9058399154384422552_o.webp)
+![Isla Athena with her Greek namesake](images/10357698_10100612593589534_9058399154384422552_o.webp)
 
 ![Sarcophagi](images/10298523_10100612593839034_4137074300677359035_o.webp)
 
