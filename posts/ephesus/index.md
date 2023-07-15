@@ -1,5 +1,5 @@
 ---
-title: "Ephesus and Selcuk"
+title: "Ephesus, Turkey"
 date: "2014-10-03"
 tags:
   - "ephesus"

@@ -121,6 +121,8 @@ h2:has(+ .date) {
   text-align: left;
 }
 
+/* PostList.tsx */
+
 .post-list {
   position: relative;
   list-style: none;

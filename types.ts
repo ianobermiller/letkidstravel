@@ -4,5 +4,6 @@ export interface PostData {
   title: string;
   slug: string;
   date: string;
+  tags: Set<string>;
   heroImageUrl: string | undefined;
 }

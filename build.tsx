@@ -56,15 +56,18 @@ async function build(isWatch: boolean) {
           })
           .process(postContent);
 
-        const frontmatter = md.data.frontmatter as Record<string, string>;
+        const frontmatter = md.data.frontmatter as Record<string, unknown>;
 
         const post: PostData = {
-          date: frontmatter.date,
+          date: String(frontmatter.date),
           heroImageUrl,
           html: md.toString(),
           path,
           slug,
-          title: frontmatter.title,
+          title: String(frontmatter.title),
+          tags: new Set(
+            Array.isArray(frontmatter.tags) ? frontmatter.tags.map(String) : []
+          ),
         };
         return post;
       })
@@ -75,7 +78,9 @@ async function build(isWatch: boolean) {
         const outputDir = join(BUILD_DIR, post.slug);
         await mkdir(outputDir, { recursive: true });
 
-        const output = renderPage(<Post post={post} />);
+        const output = renderPage(
+          <Post post={post} relatedPosts={getRelatedPosts(posts, post)} />
+        );
 
         if (existsSync(join(post.path, "images"))) {
           await cp(join(post.path, "images"), join(outputDir, "images"), {
@@ -103,6 +108,35 @@ async function writeIndex(posts: Array<PostData>) {
 function renderPage(page: React.ReactElement) {
   return `<!DOCTYPE html>
 ${renderToString(page)}`;
+}
+
+const countByTag = new Map<string, number>();
+
+function getRelatedPosts(posts: PostData[], post: PostData): PostData[] {
+  if (!countByTag.size) {
+    posts.forEach((p) =>
+      p.tags.forEach((t) => countByTag.set(t, (countByTag.get(t) ?? 0) + 1))
+    );
+  }
+
+  const targetTags = post.tags;
+  return posts
+    .filter((p) => p !== post)
+    .sort((a, b) => {
+      return scorePost(b, targetTags) - scorePost(a, targetTags);
+    })
+    .slice(0, 3);
+}
+
+function scorePost(post: PostData, targetTags: Set<string>): number {
+  let total = 0;
+  for (const tag of targetTags) {
+    if (post.tags.has(tag)) {
+      const count = countByTag.get(tag) ?? 0;
+      total += Math.pow(1, -count);
+    }
+  }
+  return total;
 }
 
 build(process.argv.includes("--watch"));

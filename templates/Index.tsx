@@ -1,3 +1,4 @@
+import { PostList } from "./PostList";
 import { PostData } from "../types";
 import { Layout } from "./Layout";
 
@@ -19,19 +20,7 @@ export function Index({ posts }: Props) {
         </div>
       </div>
 
-      <ul className="post-list">
-        {posts.map((post) => (
-          <li key={post.path}>
-            <a href={post.slug}>
-              <div
-                className="thumbnail"
-                style={{ backgroundImage: `url(${post.heroImageUrl})` }}
-              />
-              <div className="title">{post.title}</div>
-            </a>
-          </li>
-        ))}
-      </ul>
+      <PostList posts={posts} />
     </Layout>
   );
 }
