@@ -19,8 +19,8 @@ import { Root } from "remark-parse/lib";
 const POSTS_DIR = "./posts";
 const BUILD_DIR = "./build";
 
-async function build(isWatch: boolean) {
-  await rm(BUILD_DIR, { force: true, recursive: true });
+async function build(isWatch: boolean, clean: boolean) {
+  if (clean) await rm(BUILD_DIR, { force: true, recursive: true });
 
   async function buildAndWatch(path: string, callback: () => Promise<void>) {
     await callback();
@@ -139,4 +139,4 @@ function scorePost(post: PostData, targetTags: Set<string>): number {
   return total;
 }
 
-build(process.argv.includes("--watch"));
+build(process.argv.includes("--watch"), process.argv.includes("--clean"));

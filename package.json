@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "tsx build.tsx",
+    "build": "tsx build.tsx --clean",
     "watch": "tsx watch build.tsx --watch"
   },
   "keywords": [],
