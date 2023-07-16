@@ -61,6 +61,7 @@ async function build(isWatch: boolean, clean: boolean) {
 
         const frontmatter = md.data.frontmatter as Record<string, unknown>;
 
+        const outputDir = join(BUILD_DIR, slug);
         const post: PostData = {
           date: String(frontmatter.date),
           html: md.toString(),
@@ -71,20 +72,10 @@ async function build(isWatch: boolean, clean: boolean) {
           tags: new Set(
             Array.isArray(frontmatter.tags) ? frontmatter.tags.map(String) : []
           ),
+          outputDir,
         };
 
-        return post;
-      })
-    );
-
-    await Promise.all(
-      posts.map(async (post) => {
-        const outputDir = join(BUILD_DIR, post.slug);
-        await mkdir(join(outputDir, "images"), { recursive: true });
-
-        const output = renderPage(
-          <Post post={post} relatedPosts={getRelatedPosts(posts, post)} />
-        );
+        await mkdir(join(post.outputDir, "images"), { recursive: true });
 
         if (post.thumbnailUrl) {
           const inputPath = join(post.path, post.thumbnailUrl);
@@ -107,13 +98,23 @@ async function build(isWatch: boolean, clean: boolean) {
           }
         }
 
+        return post;
+      })
+    );
+
+    await Promise.all(
+      posts.map(async (post) => {
+        const output = renderPage(
+          <Post post={post} relatedPosts={getRelatedPosts(posts, post)} />
+        );
+
         if (existsSync(join(post.path, "images"))) {
-          await cp(join(post.path, "images"), join(outputDir, "images"), {
+          await cp(join(post.path, "images"), join(post.outputDir, "images"), {
             recursive: true,
           });
         }
 
-        await writeFile(join(outputDir, "index.html"), output);
+        await writeFile(join(post.outputDir, "index.html"), output);
       })
     );
 

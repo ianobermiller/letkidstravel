@@ -1,9 +1,10 @@
 export interface PostData {
-  path: string;
-  html: string;
-  title: string;
-  slug: string;
   date: string;
+  html: string;
+  outputDir: string;
+  path: string;
+  slug: string;
   tags: Set<string>;
   thumbnailUrl: string | undefined;
+  title: string;
 }
