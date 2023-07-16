@@ -5,5 +5,5 @@ export interface PostData {
   slug: string;
   date: string;
   tags: Set<string>;
-  heroImageUrl: string | undefined;
+  thumbnailUrl: string | undefined;
 }

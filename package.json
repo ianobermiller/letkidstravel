@@ -24,6 +24,7 @@
     "remark-html": "^15.0.2",
     "remark-parse": "^10.0.2",
     "remark-parse-frontmatter": "^1.0.3",
+    "sharp": "^0.32.3",
     "tsx": "^3.12.7",
     "typescript": "^5.1.6",
     "unified": "^10.1.2",

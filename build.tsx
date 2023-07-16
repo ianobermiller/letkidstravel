@@ -2,7 +2,7 @@ import remarkFigureCaption from "@microflash/remark-figure-caption";
 import liveServer from "live-server";
 import { existsSync, watch } from "node:fs";
 import { cp, mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
-import { join } from "node:path";
+import { basename, join } from "node:path";
 import React from "react";
 import { renderToString } from "react-dom/server";
 import remarkFrontmatter from "remark-frontmatter";
@@ -15,9 +15,12 @@ import { Post } from "./templates/Post";
 import { PostData } from "./types.js";
 import { EXIT, visit } from "unist-util-visit";
 import { Root } from "remark-parse/lib";
+import sharp from "sharp";
 
 const POSTS_DIR = "./posts";
 const BUILD_DIR = "./build";
+
+const THUMBNAIL_SIZE = 210;
 
 async function build(isWatch: boolean, clean: boolean) {
   if (clean) await rm(BUILD_DIR, { force: true, recursive: true });
@@ -41,7 +44,7 @@ async function build(isWatch: boolean, clean: boolean) {
         const path = join(POSTS_DIR, slug);
         const postContent = await readFile(join(path, "index.md"), "utf-8");
 
-        let heroImageUrl;
+        let thumbnailUrl;
         const md = await unified()
           .use(remarkParse)
           .use(remarkFrontmatter, ["yaml"])
@@ -50,7 +53,7 @@ async function build(isWatch: boolean, clean: boolean) {
           .use(remarkHtml)
           .use(() => (tree: Root) => {
             visit(tree, "image", (node) => {
-              heroImageUrl = "/" + join(slug, node.url);
+              thumbnailUrl = node.url;
               return EXIT;
             });
           })
@@ -60,37 +63,61 @@ async function build(isWatch: boolean, clean: boolean) {
 
         const post: PostData = {
           date: String(frontmatter.date),
-          heroImageUrl,
           html: md.toString(),
           path,
           slug,
+          thumbnailUrl,
           title: String(frontmatter.title),
           tags: new Set(
             Array.isArray(frontmatter.tags) ? frontmatter.tags.map(String) : []
           ),
         };
+
         return post;
       })
     );
 
-    await Promise.all([
-      ...posts.map(async (post) => {
+    await Promise.all(
+      posts.map(async (post) => {
         const outputDir = join(BUILD_DIR, post.slug);
-        await mkdir(outputDir, { recursive: true });
+        await mkdir(join(outputDir, "images"), { recursive: true });
 
         const output = renderPage(
           <Post post={post} relatedPosts={getRelatedPosts(posts, post)} />
         );
+
+        if (post.thumbnailUrl) {
+          const inputPath = join(post.path, post.thumbnailUrl);
+          if (existsSync(inputPath)) {
+            const thumbnailUrl = post.thumbnailUrl.replace(
+              /\.([^.]+)$/,
+              "_t.webp"
+            );
+            await sharp(inputPath)
+              .resize({
+                fit: "cover",
+                width: THUMBNAIL_SIZE * 2,
+                height: THUMBNAIL_SIZE * 2,
+              })
+              .webp()
+              .toFile(join(outputDir, thumbnailUrl));
+            post.thumbnailUrl = "/" + join(post.slug, thumbnailUrl);
+          } else {
+            post.thumbnailUrl = undefined;
+          }
+        }
 
         if (existsSync(join(post.path, "images"))) {
           await cp(join(post.path, "images"), join(outputDir, "images"), {
             recursive: true,
           });
         }
+
         await writeFile(join(outputDir, "index.html"), output);
-      }),
-      writeIndex(posts),
-    ]);
+      })
+    );
+
+    await writeIndex(posts);
   });
 
   await buildAndWatch("public", () =>

@@ -12,9 +12,7 @@ export function PostList({ posts }: Props) {
           <a href={"/" + post.slug}>
             <div
               className="thumbnail"
-              style={{
-                backgroundImage: `url(${post.heroImageUrl})`,
-              }}
+              style={{ backgroundImage: `url(${post.thumbnailUrl})` }}
             />
             <div className="title">{post.title}</div>
           </a>
