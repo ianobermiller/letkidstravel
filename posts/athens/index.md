@@ -13,7 +13,19 @@ In Athens we were able to stay in the city center through Airbnb. The location w
 
 Our host provided us with tickets to see the major attractions! It definitely helped us keep down on costs. We hit the Acropolis first as that is what we were most excited about. It was as beautiful as I imagined. However, it was under construction and in keeping with the rest of Greece had a lot of hired people standing around. I would highly recommend it but be sure to wear walking shoes as it is a bit of hike. Also, sun protection and lots of water are a must. My husband was lamenting that he forgot sunglasses and a hat! Wells had a good time posing for pictures and we met a really nice family while we were there who took a lot of our pictures for us! There are lots of different parts to see so I recommend carving out a half day to see everything.
 
-\[gallery ids="903,905,913,914,912,911,904,909,910,902,901"\] Another must see is the new Acropolis museum. I have been to a lot of museums and this is one of the best planned and aesthetically pleasing museums I have ever been in. I could definitely have spent a lot longer there than we did if our kids weren't getting so hungry! There are also helpful guides in the museums to answer a lot of your questions.
+![ ](images/10604680_10100691581502124_2884684932821611773_o.jpeg)
+![ ](images/10623402_10100691583508104_8374925554468561995_o.jpeg)
+![ ](images/10269242_10100691582380364_9002840107060317370_o.jpeg)
+![ ](images/10457681_10100691577894354_3882703718482221517_o.jpeg)
+![ ](images/10265369_10100691578338464_3686022007182793250_o.jpeg)
+![ ](images/10550084_10100691580778574_7054430243812100883_o.jpeg)
+![ ](images/10532816_10100691578273594_6275148287456268638_o.jpeg)
+![ ](images/10623484_10100691578073994_4535166237439066279_o.jpeg)
+![ ](images/10628717_10100691578538064_8865201268860717616_o.jpeg)
+![ ](images/10623595_10100691579251634_1812322016447269913_o.jpeg)
+![ ](images/10530646_10100691579685764_7154797305043595462_o.jpeg)
+
+Another must see is the new Acropolis museum. I have been to a lot of museums and this is one of the best planned and aesthetically pleasing museums I have ever been in. I could definitely have spent a lot longer there than we did if our kids weren't getting so hungry! There are also helpful guides in the museums to answer a lot of your questions.
 
 There are lot of little sites to see throughout Athens. There were several temple ruins throughout the city, some of our favorites were the Stoa of Attalos (huge modern reconstruction financed by Rockefeller!), the Temple of Hephaestus. I would say three days is enough to see all Athens has to offer unless you plan to make a day trip outside of Athens. I can't imagine how hot it must get in summer, but for us April was the perfect temperature and weather.
 
