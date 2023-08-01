@@ -9,7 +9,7 @@ export function PostList({ posts }: Props) {
     <ul className="post-list">
       {posts.map((post) => (
         <li key={post.path}>
-          <a href={"/" + post.slug}>
+          <a href={`/${post.slug}/`}>
             <div
               className="thumbnail"
               style={{ backgroundImage: `url(${post.thumbnailUrl})` }}
