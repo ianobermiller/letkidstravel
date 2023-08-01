@@ -33,7 +33,7 @@ async function build(isWatch: boolean, clean: boolean) {
     }
   }
 
-  buildAndWatch("posts", async () => {
+  buildAndWatch(POSTS_DIR, async () => {
     const postEntries = (
       await readdir(POSTS_DIR, { withFileTypes: true })
     ).filter((e) => e.isDirectory() && !e.name.startsWith("."));
