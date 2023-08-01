@@ -10,10 +10,10 @@ export function Layout({ children, title }: Props) {
     <html lang="en">
       <head>
         <meta charSet="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
         <title>{title}</title>
+        <link href="/index.css" rel="stylesheet" />
       </head>
-      <link rel="stylesheet" href="/index.css" />
       <body>
         {children}
         <footer>

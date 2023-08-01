@@ -1,21 +1,21 @@
+import { Index } from "./templates/Index";
+import { Post } from "./templates/Post";
+import { PostData } from "./types.js";
 import remarkFigureCaption from "@microflash/remark-figure-caption";
 import liveServer from "live-server";
 import { existsSync, watch } from "node:fs";
 import { cp, mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
-import { basename, join } from "node:path";
+import { join } from "node:path";
 import React from "react";
 import { renderToString } from "react-dom/server";
 import remarkFrontmatter from "remark-frontmatter";
 import remarkHtml from "remark-html";
 import remarkParse from "remark-parse";
 import remarkParseFrontmatter from "remark-parse-frontmatter";
-import { unified } from "unified";
-import { Index } from "./templates/Index";
-import { Post } from "./templates/Post";
-import { PostData } from "./types.js";
-import { EXIT, visit } from "unist-util-visit";
 import { Root } from "remark-parse/lib";
 import sharp from "sharp";
+import { unified } from "unified";
+import { EXIT, visit } from "unist-util-visit";
 
 const POSTS_DIR = "./posts";
 const BUILD_DIR = "./build";
@@ -65,14 +65,14 @@ async function build(isWatch: boolean, clean: boolean) {
         const post: PostData = {
           date: String(frontmatter.date),
           html: md.toString(),
+          outputDir,
           path,
           slug,
-          thumbnailUrl,
-          title: String(frontmatter.title),
           tags: new Set(
             Array.isArray(frontmatter.tags) ? frontmatter.tags.map(String) : []
           ),
-          outputDir,
+          thumbnailUrl,
+          title: String(frontmatter.title),
         };
 
         await mkdir(join(post.outputDir, "images"), { recursive: true });
@@ -87,8 +87,8 @@ async function build(isWatch: boolean, clean: boolean) {
             await sharp(inputPath)
               .resize({
                 fit: "cover",
-                width: THUMBNAIL_SIZE * 2,
                 height: THUMBNAIL_SIZE * 2,
+                width: THUMBNAIL_SIZE * 2,
               })
               .webp()
               .toFile(join(outputDir, thumbnailUrl));
@@ -125,7 +125,7 @@ async function build(isWatch: boolean, clean: boolean) {
     cp("public", BUILD_DIR, { recursive: true })
   );
 
-  isWatch && liveServer.start({ root: BUILD_DIR, open: false, port: 3000 });
+  isWatch && liveServer.start({ open: false, port: 3000, root: BUILD_DIR });
 }
 
 async function writeIndex(posts: Array<PostData>) {

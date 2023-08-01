@@ -1,6 +1,6 @@
-import { PostList } from "./PostList";
 import { PostData } from "../types";
 import { Layout } from "./Layout";
+import { PostList } from "./PostList";
 
 interface Props {
   posts: Array<PostData>;
