@@ -6,13 +6,11 @@ interface Props {
   posts: Array<PostData>;
 }
 
-export function Index({ posts }: Props) {
+export function Home({ posts }: Props) {
   return (
-    <Layout title="Let Kids Travel">
+    <Layout headingColor="light" title="Let Kids Travel">
       <div className="home-header">
-        <h1>
-          <a href="/">Let Kids Travel</a>
-        </h1>
+        <div className="image" />
         <div className="blurb">
           <span className="wave">👋</span>Hi, we’re Olivia and Ian. We travel
           with our four children enjoying architecture, nature, baked goods,

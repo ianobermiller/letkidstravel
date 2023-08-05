@@ -1,4 +1,4 @@
-import { Index } from "./templates/Index";
+import { Home } from "./templates/Home";
 import { Post } from "./templates/Post";
 import { PostData } from "./types.js";
 import remarkFigureCaption from "@microflash/remark-figure-caption";
@@ -20,7 +20,7 @@ import { EXIT, visit } from "unist-util-visit";
 const POSTS_DIR = "./posts";
 const BUILD_DIR = "./build";
 
-const THUMBNAIL_SIZE = 210;
+const THUMBNAIL_SIZE = 600;
 
 async function build(isWatch: boolean, clean: boolean) {
   if (clean) await rm(BUILD_DIR, { force: true, recursive: true });
@@ -136,7 +136,7 @@ async function build(isWatch: boolean, clean: boolean) {
 
 async function writeIndex(posts: Array<PostData>) {
   const path = join(BUILD_DIR, "index.html");
-  await writeFile(path, renderPage(<Index posts={posts} />));
+  await writeFile(path, renderPage(<Home posts={posts} />));
 }
 
 function renderPage(page: React.ReactElement) {

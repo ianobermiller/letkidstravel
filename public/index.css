@@ -1,8 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Zilla+Slab&display=swap");
-
-body {
+:root {
   --title-font-family: "Amatic SC", system-ui, sans-serif;
   --body-font-family: "Zilla Slab", serif;
+  --header-height: 80px;
+  --max-thumbnail-width: 300px;
+  --requested-thumbnail-width: 25vw;
+  --accent-bg: hsl(140, 3%, 93%);
+  --side-margin: 40px;
+}
+
+body {
   font-family: var(--body-font-family);
   font-size: 20px;
   line-height: 1.65;
@@ -10,7 +17,6 @@ body {
 
 body {
   margin: 0 auto;
-  max-width: 800px;
 }
 
 h1,
@@ -37,20 +43,67 @@ h1 {
 }
 
 h1 a {
-  display: block;
-  color: black;
   font-size: 70px;
   line-height: 1;
   text-decoration: none;
-  padding: 50px 0 0 0;
+  color: black;
+}
+
+h1.light a {
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 90%);
+}
+
+header {
+  align-items: flex-start;
+  box-sizing: border-box;
+  display: flex;
+  height: var(--header-height);
+  justify-content: space-between;
+  padding: 10px var(--side-margin);
+  position: relative;
+  z-index: 1; /* allow the image to go under */
+}
+
+header > aside {
+  display: flex;
+  gap: 12px;
+}
+
+header > aside > * {
+  background: var(--accent-bg);
+  border: none;
+  border-radius: 16px;
+  height: 32px;
+  font-size: 16px;
+  color: black;
+  padding: 0 16px;
+}
+
+@media (max-width: 800px) {
+  :root {
+    --side-margin: 20px;
+  }
+
+  header {
+    flex-direction: column;
+  }
 }
 
 footer {
   font-size: 0.8em;
-  margin: 100px 0 40px 0;
+  text-align: center;
+  padding: 1em;
 }
 
 /* Post.tsx */
+
+article {
+  max-width: 42em;
+  margin: 0 auto;
+  padding: 0 var(--side-margin);
+  --requested-thumbnail-width: 11em;
+}
 
 figure {
   display: flex;
@@ -80,39 +133,35 @@ h2:has(+ .date) {
 
 /* Index.tsx */
 
-.home-header h1 a {
+.home-header {
+  display: flex;
+  margin-bottom: -50px;
+}
+
+.home-header > .image {
   background-image: url(images/hero.webp);
-  background-position: -100px 0;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
-  display: block;
+  background-position: center;
   height: 320px;
-  padding: 50px 0 0 70px;
-  margin-left: -60px;
-  margin-bottom: -130px;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 90%);
-  width: 400px;
+  margin: calc(-1 * var(--header-height)) 0 0 -5px;
+  width: 60vw;
   -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' preserveAspectRatio='none'%3E%3Cpath d='M13.7.3C12-.1 10-.2 8.3.6c-1.3.7-2.2 1.7-3.1 3-1.3 1.9-2.7 3.8-3.5 6.1C.8 12 .5 14.5.3 17c-.2 2.2-.4 4.5-.2 6.8s1.1 4.5 2.6 6c2.9 2.8 9.5 2.5 13.3 1.8 3.1-.5 6.2-1 9-2.5 3.5-1.8 4.4-5.1 5.7-9.1 1.6-4 2.3-13.1-1.5-15.6-4.5-2.9-10.3-3-15.5-4.1z'/%3E%3C/svg%3E%0A");
   mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' preserveAspectRatio='none'%3E%3Cpath d='M13.7.3C12-.1 10-.2 8.3.6c-1.3.7-2.2 1.7-3.1 3-1.3 1.9-2.7 3.8-3.5 6.1C.8 12 .5 14.5.3 17c-.2 2.2-.4 4.5-.2 6.8s1.1 4.5 2.6 6c2.9 2.8 9.5 2.5 13.3 1.8 3.1-.5 6.2-1 9-2.5 3.5-1.8 4.4-5.1 5.7-9.1 1.6-4 2.3-13.1-1.5-15.6-4.5-2.9-10.3-3-15.5-4.1z'/%3E%3C/svg%3E%0A");
   -webkit-mask-position: bottom right;
   mask-position: bottom right;
-  -webkit-mask-size: 100% 130%;
+  -webkit-mask-size: 107% 150%;
   mask-size: 107% 150%;
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
 }
 
-.home-header {
-  display: flex;
-}
-
 .blurb {
   font-family: var(--body-font-family);
-  font-weight: 200;
-  padding: 50px 10px 0 50px;
+  padding: 0 40px 0 50px;
   font-size: 22px;
   text-indent: -14px;
+  width: 40vw;
 }
 
 .blurb .wave {
@@ -121,30 +170,60 @@ h2:has(+ .date) {
   text-align: left;
 }
 
+@media (max-width: 800px) {
+  :root {
+    --requested-thumbnail-width: 80vw;
+  }
+
+  .home-header {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .home-header > .image {
+    width: 100%;
+  }
+
+  .blurb {
+    box-sizing: border-box;
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: -180px;
+    padding-right: 50px;
+    position: relative;
+    width: 100%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 90%);
+  }
+}
+
 /* PostList.tsx */
 
 .post-list {
-  position: relative;
+  --thumbnail-width: calc(
+    min(var(--requested-thumbnail-width), var(--max-thumbnail-width))
+  );
+
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 30px;
+  justify-content: center;
   list-style: none;
   margin: 2em 0;
   padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px 20px;
-  align-items: center;
+  position: relative;
 }
 
 .post-list li a {
-  --width: 230px;
-  --bg: hsl(140, 3%, 93%);
-  background: var(--bg);
+  background: var(--accent-bg);
   background-clip: padding-box;
   border: 5px solid white;
-  box-shadow: 0 0 0 1px var(--bg);
+  box-shadow: 0 0 0 1px var(--accent-bg);
   color: #333;
   display: block;
   text-decoration: none;
-  width: var(--width);
+  width: var(--thumbnail-width);
   position: relative;
 }
 
@@ -155,14 +234,14 @@ h2:has(+ .date) {
 
 .post-list .thumbnail {
   background-size: cover;
-  height: calc(var(--width) - 20px);
-  width: calc(var(--width) - 20px);
+  height: calc(var(--thumbnail-width) - 20px);
+  width: calc(var(--thumbnail-width) - 20px);
   margin: 10px 10px 10px 10px;
 }
 
 .post-list .title {
   line-height: 1.2;
-  padding: 1em 0.5em;
+  padding: 0.5em;
   text-align: center;
   font-family: var(--body-font-family);
   font-weight: 200;
@@ -170,7 +249,7 @@ h2:has(+ .date) {
   bottom: -15px;
   background: white;
   border: 1px solid #ccc;
-  width: calc(var(--width) - 60px);
+  width: calc(var(--thumbnail-width) - 60px);
   left: 20px;
 }
 

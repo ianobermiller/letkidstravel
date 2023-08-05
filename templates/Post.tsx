@@ -10,19 +10,17 @@ interface Props {
 export function Post({ post, relatedPosts }: Props) {
   return (
     <Layout title={`${post.title} - Let Kids Travel`}>
-      <h1>
-        <a href="/">Let Kids Travel</a>
-      </h1>
+      <article>
+        <h2>{post.title}</h2>
 
-      <h2>{post.title}</h2>
+        <p className="date">{post.date}</p>
 
-      <p className="date">{post.date}</p>
+        <main dangerouslySetInnerHTML={{ __html: post.html }} />
 
-      <main dangerouslySetInnerHTML={{ __html: post.html }} />
+        <h2>Also check out:</h2>
 
-      <h2>More from Let Kids Travel</h2>
-
-      <PostList posts={relatedPosts} />
+        <PostList posts={relatedPosts} />
+      </article>
     </Layout>
   );
 }
