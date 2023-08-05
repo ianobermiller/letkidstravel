@@ -5,6 +5,7 @@ tags:
   - "athens"
   - "greece"
   - "ruins"
+thumbnail: "images/10530646_10100691579685764_7154797305043595462_o.jpeg"
 ---
 
 We have come to the last city on our European adventure of 2014. Hard to believe we went to all these cities. I am so happy to have blogged about it so the memories will always be there. I am a little sad writing this one as I fear it could be our last Europe trip for a long time. I mean travelling to Europe with 3 kids seems like a daunting prospect. I think I will just cross my fingers that my husband's job will one day be there and we will have the chance to call Europe home. For now I will give this last account.
@@ -20,10 +21,10 @@ Our host provided us with tickets to see the major attractions! It definitely he
 ![ ](images/10265369_10100691578338464_3686022007182793250_o.jpeg)
 ![ ](images/10550084_10100691580778574_7054430243812100883_o.jpeg)
 ![ ](images/10532816_10100691578273594_6275148287456268638_o.jpeg)
-![ ](images/10623484_10100691578073994_4535166237439066279_o.jpeg)
-![ ](images/10628717_10100691578538064_8865201268860717616_o.jpeg)
-![ ](images/10623595_10100691579251634_1812322016447269913_o.jpeg)
-![ ](images/10530646_10100691579685764_7154797305043595462_o.jpeg)
+![Stoa of Attalos from the Acropolis](images/10623484_10100691578073994_4535166237439066279_o.jpeg)
+![Sunny day at the Acropolis](images/10628717_10100691578538064_8865201268860717616_o.jpeg)
+![Packer fan at the Acropolis](images/10623595_10100691579251634_1812322016447269913_o.jpeg)
+![Our family at the Acropolis](images/10530646_10100691579685764_7154797305043595462_o.jpeg)
 
 Another must see is the new Acropolis museum. I have been to a lot of museums and this is one of the best planned and aesthetically pleasing museums I have ever been in. I could definitely have spent a lot longer there than we did if our kids weren't getting so hungry! There are also helpful guides in the museums to answer a lot of your questions.
 

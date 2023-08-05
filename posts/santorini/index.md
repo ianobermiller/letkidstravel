@@ -5,6 +5,7 @@ tags:
   - "ferry"
   - "greece"
   - "gyro"
+thumbnail: "images/10275431_10100616339622454_1384821890002551076_o.webp"
 ---
 
 After we left [Rhodes](http://youngmodernmama.com/2014/11/traveling-abroad-rhodes/ "Traveling Abroad: Rhodes") it was on to the next Greek island, Santorini. Instead of a high speed ferry we took the Blue Star Ferry. I highly recommend this line and it is the only way I would travel in the future between islands. It is like a cruise ship and very roomy. We reserved seats, though I don't think it is worth the extra cost since you can generally find seating throughout. Granted we did go in April, so it might be different during the busy summer.

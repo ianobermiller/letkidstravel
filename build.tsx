@@ -71,7 +71,9 @@ async function build(isWatch: boolean, clean: boolean) {
           tags: new Set(
             Array.isArray(frontmatter.tags) ? frontmatter.tags.map(String) : []
           ),
-          thumbnailUrl,
+          thumbnailUrl: frontmatter.thumbnail
+            ? String(frontmatter.thumbnail)
+            : thumbnailUrl,
           title: String(frontmatter.title),
         };
 
@@ -100,6 +102,10 @@ async function build(isWatch: boolean, clean: boolean) {
 
         return post;
       })
+    );
+
+    posts.sort(
+      (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
     );
 
     await Promise.all(

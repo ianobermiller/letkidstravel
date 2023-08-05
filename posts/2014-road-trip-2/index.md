@@ -1,10 +1,11 @@
 ---
-title: "Family Roadtrip Finished!"
+title: "Road Trip, Part 2: We made it!"
 date: "2014-07-21"
 tags:
   - "entertainment"
   - "road-trip"
   - "vtech"
+thumbnail: "images/IMG_3941.webp"
 ---
 
 Well, everyone, we made it back from our big road trip. We visited Idaho, Montana, Wyoming, South Dakota, Minnesota, Wisconsin, Illinois, Iowa, Nebraska, Colorado, and Utah. That is a lot of states. We drove almost 5,000 miles! You may be wondering how these two kids did in the car? I am happy to answer that it went better than I expected. There were moments of tantrums and fighting between siblings and they both seem to push each other's buttons, but they were good most of the time.

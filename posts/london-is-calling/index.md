@@ -4,6 +4,7 @@ date: "2015-07-02"
 tags:
   - "europe"
   - "london"
+thumbnail: "images/11535800_10100975266744624_1688704152945611497_n.webp"
 ---
 
 What an odd title to a post, huh? Well not if you are about to depart on a 6 week trip to London. Yes, the woman who said no more international travel with three young children is about to do just that! Isn't it funny how life works? We are going to London for my husband's job so in actuality this will be less vacation and more of a work trip, for both of us!

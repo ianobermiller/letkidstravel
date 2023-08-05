@@ -1,5 +1,5 @@
 ---
-title: "Big Island, Hawaii 2013"
+title: "Big Island, Hawaii"
 date: "2015-02-05"
 tags:
   - "big-island"
@@ -10,6 +10,8 @@ tags:
   - "stargazing"
   - "volcano"
   - "zoo"
+thumbnail: "images/944777_10100308577390434_1662390866_n.jpeg"
+year: 2013
 ---
 
 The next winter we were ready to escape the rainy Seattle weather again and head to a different Hawaiian Island. This time we decided on the Big Island. I really wanted to see a volcano. We decided to go for two weeks and this time we rented a one bedroom condo. It was so worth it to stay that length of time and the one bedroom made it nice because even though Wells went to bed early we could still watch movies at night.
@@ -42,6 +44,6 @@ While we were in Hawaii is also when we announced our news that Wells would be a
 
 Our condo was on the beach so we were just steps from the sand. It wasn't swimmable but there was sand to play in which made Wells a happy camper. Also, it was interesting to explore the reefs and there was even a turtle visitor.
 
-![ ](images/944777_10100308577390434_1662390866_n.jpeg)
+![Sea turtle, look but don't touch](images/944777_10100308577390434_1662390866_n.jpeg)
 
 We had an amazing time on the Big Island and I would highly recommend it. Writing all of this is making me really excited to head to Kauai in a few short weeks. I will be much more pregnant this time around so it will be more about relaxing! Feel free to ask any questions and I hope you are all getting a little sun this winter!

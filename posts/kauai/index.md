@@ -1,6 +1,7 @@
 ---
 title: "Kauai Part 1: Vacation in Paradise"
 date: "2015-04-12"
+thumbnail: "images/11023811_10100906089037304_1885392912150251764_o.webp"
 ---
 
 We wanted to take one last vacation as a family of four and Isla has never been to Hawaii. Since Wells has been there twice before we couldn't deprive our little lady of some fun in the sun! We flew a direct flight on Alaska airlines into Lihue. We flew out at 6 p.m. and while our flights normally go well this one wasn't so great. There was an hour delay and we were by all the families so when children would cry Isla could not sleep through that. Also, there was a flight attendant who was not very friendly. It really makes a difference on these flights when there are kind and helpful people to make these experiences go a little more smoothly.

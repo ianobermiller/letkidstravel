@@ -1,9 +1,10 @@
 ---
-title: "Oahu, Hawaii 2012"
+title: "Oahu, Hawaii"
 date: "2015-01-22"
 tags:
   - "hawaii"
   - "oahu"
+year: 2012
 ---
 
 As I look back on the pictures to write this post it seems so surreal. Once upon a time we were a family of three and my 3 year old was only 7 months when we took this trip. People always tell you how your kids will grow up so fast but you never understand it until it happens to you or for me when you look back at pictures and are amazed at how big your kids have become.

@@ -6,6 +6,7 @@ tags:
   - "ruins"
   - "selcuk"
   - "turkey"
+thumbnail: "images/10256817_10100598792147734_5364762393236696108_n.jpeg"
 ---
 
 This is the part of our journey that I was looking forward to the most. The ruins of Ancient Ephesus have been a dream of mine to visit (yes, I am a total history nerd). To start this leg of our journey we flew from [Cappadocia](http://youngmodernmama.com/2014/09/traveling-abroad-cappadocia/ "Traveling Abroad: Cappadocia") to Izmir and then took an hour train ride to the town of Selcuk which lies a short distance away from the ruins.

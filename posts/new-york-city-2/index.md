@@ -6,6 +6,7 @@ tags:
   - "musuems"
   - "new-york"
   - "parks"
+thumbnail: "images/IMG_7922.webp"
 ---
 
 Now for the happier parts of our trip, everything we did in New York City. Now the kids and I had two days by ourselves that my husband was in meetings. We were staying in the East Village so the first day I stayed around the Union Square area, close to our apartment because I was exhausted from the [long travel the day before](http://youngmodernmama.com/2014/11/traveling-stateside-new-york-city/ "Traveling Stateside: New York City"). The kids did not sleep in as late as I thought they would so it was good for us to be close for nap time. We walked through Union Square and explored all the shops nearby. Wells loves the playground in Union Square and Isla loved all the people watching.
