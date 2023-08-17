@@ -1,12 +1,12 @@
+import { Layout } from "../templates/Layout";
+import { PostList } from "../templates/PostList";
 import { PostData } from "../types";
-import { Layout } from "./Layout";
-import { PostList } from "./PostList";
 
 interface Props {
   posts: Array<PostData>;
 }
 
-export function Home({ posts }: Props) {
+export default function Index({ posts }: Props) {
   return (
     <Layout headingColor="light" title="Let Kids Travel">
       <div className="home-header">

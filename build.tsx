@@ -1,11 +1,10 @@
-import { Home } from "./templates/Home";
 import { Post } from "./templates/Post";
 import { PostData } from "./types.js";
 import remarkFigureCaption from "@microflash/remark-figure-caption";
 import liveServer from "live-server";
 import { existsSync, watch } from "node:fs";
 import { cp, mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
-import { join } from "node:path";
+import { dirname, join } from "node:path";
 import React from "react";
 import { renderToString } from "react-dom/server";
 import remarkFrontmatter from "remark-frontmatter";
@@ -17,7 +16,9 @@ import sharp from "sharp";
 import { unified } from "unified";
 import { EXIT, visit } from "unist-util-visit";
 
+const PAGES_DIR = "./pages";
 const POSTS_DIR = "./posts";
+const PUBLIC_DIR = "./public";
 const BUILD_DIR = "./build";
 
 const THUMBNAIL_SIZE = 600;
@@ -26,14 +27,19 @@ async function build(isWatch: boolean, clean: boolean) {
   if (clean) await rm(BUILD_DIR, { force: true, recursive: true });
 
   async function buildAndWatch(path: string, callback: () => Promise<void>) {
+    console.log(`Watching ${path}...`);
+
     await callback();
 
     if (isWatch) {
-      watch(path, { recursive: true }, callback);
+      watch(path, { recursive: true }, () => {
+        console.log(`Rebuilding ${path}...`);
+        callback();
+      });
     }
   }
 
-  buildAndWatch(POSTS_DIR, async () => {
+  await buildAndWatch(POSTS_DIR, async () => {
     const postEntries = (
       await readdir(POSTS_DIR, { withFileTypes: true })
     ).filter((e) => e.isDirectory() && !e.name.startsWith("."));
@@ -131,19 +137,31 @@ async function build(isWatch: boolean, clean: boolean) {
       })
     );
 
-    await writeIndex(posts);
+    // Pages
+    const pageFiles = await readdir(PAGES_DIR);
+    await Promise.all(
+      pageFiles
+        .filter((file) => file.endsWith(".tsx"))
+        .map(async (file) => {
+          const Component = (await import(`${PAGES_DIR}/${file}`)).default;
+          const path = join(
+            BUILD_DIR,
+            file === "index.tsx"
+              ? "index.html"
+              : file.toLowerCase().replace(/\.tsx$/, "/index.html")
+          );
+
+          await mkdir(dirname(path), { recursive: true });
+          await writeFile(path, renderPage(<Component posts={posts} />));
+        })
+    );
   });
 
-  await buildAndWatch("public", () =>
-    cp("public", BUILD_DIR, { recursive: true })
+  await buildAndWatch(PUBLIC_DIR, () =>
+    cp(PUBLIC_DIR, BUILD_DIR, { recursive: true })
   );
 
   isWatch && liveServer.start({ open: false, port: 3000, root: BUILD_DIR });
-}
-
-async function writeIndex(posts: Array<PostData>) {
-  const path = join(BUILD_DIR, "index.html");
-  await writeFile(path, renderPage(<Home posts={posts} />));
 }
 
 function renderPage(page: React.ReactElement) {
