@@ -1,5 +1,6 @@
 ---
-title: "Rhodes, Greece"
+city: "Rhodes"
+country: "Greece"
 date: "2014-11-03"
 tags:
   - "greece"

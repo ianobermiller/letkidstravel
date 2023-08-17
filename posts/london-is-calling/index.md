@@ -1,5 +1,7 @@
 ---
 title: "London is Calling"
+city: "London"
+country: "England"
 date: "2015-07-02"
 tags:
   - "europe"

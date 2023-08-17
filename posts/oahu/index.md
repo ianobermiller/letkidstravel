@@ -1,5 +1,6 @@
 ---
-title: "Oahu, Hawaii"
+city: "Oahu"
+state: "Hawaii"
 date: "2015-01-22"
 tags:
   - "hawaii"

@@ -1,5 +1,6 @@
 ---
-title: "Paros, Greece"
+city: "Paros"
+country: "Greece"
 date: "2014-12-12"
 tags:
   - "greece"

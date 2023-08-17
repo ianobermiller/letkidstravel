@@ -1,5 +1,7 @@
 ---
 title: "Traveling Stateside: New York City"
+city: "New York City"
+state: "New York"
 date: "2014-11-21"
 ---
 

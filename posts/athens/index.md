@@ -1,5 +1,6 @@
 ---
-title: "Athens, Greece"
+country: "Greece"
+city: "Athens"
 date: "2015-01-10"
 tags:
   - "athens"

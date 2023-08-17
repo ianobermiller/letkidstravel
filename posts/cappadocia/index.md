@@ -1,5 +1,6 @@
 ---
-title: "Cappadocia, Turkey"
+city: "Cappadocia"
+country: "Turkey"
 date: "2014-09-26"
 tags:
   - "flying"

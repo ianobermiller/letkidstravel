@@ -63,18 +63,25 @@ async function build(isWatch: boolean, clean: boolean) {
 
         const outputDir = join(BUILD_DIR, slug);
         const post: PostData = {
+          city: String(frontmatter.city || ""),
+          country: String(frontmatter.country || ""),
           date: String(frontmatter.date),
           html: md.toString(),
           outputDir,
           path,
           slug,
+          state: String(frontmatter.state || ""),
           tags: new Set(
             Array.isArray(frontmatter.tags) ? frontmatter.tags.map(String) : []
           ),
           thumbnailUrl: frontmatter.thumbnail
             ? String(frontmatter.thumbnail)
             : thumbnailUrl,
-          title: String(frontmatter.title),
+          title: frontmatter.title
+            ? String(frontmatter.title)
+            : `${frontmatter.city}, ${
+                frontmatter.country || frontmatter.state
+              }`,
         };
 
         await mkdir(join(post.outputDir, "images"), { recursive: true });

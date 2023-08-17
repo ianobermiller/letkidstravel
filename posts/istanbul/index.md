@@ -1,5 +1,6 @@
 ---
-title: "Istanbul, Turkey"
+city: "Istanbul"
+country: "Turkey"
 date: "2014-09-19"
 tags:
   - "baazar"

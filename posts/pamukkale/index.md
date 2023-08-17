@@ -1,5 +1,6 @@
 ---
-title: "Pamukkale, Turkey"
+city: "Pamukkale"
+country: "Turkey"
 date: "2014-10-10"
 tags:
   - "denizli"

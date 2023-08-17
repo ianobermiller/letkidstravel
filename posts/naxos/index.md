@@ -1,5 +1,7 @@
 ---
 title: "Easter on Naxos, Greece"
+city: "Naxos"
+country: "Greece"
 date: "2015-01-02"
 tags:
   - "greece"

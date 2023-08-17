@@ -1,5 +1,6 @@
 ---
-title: "Aphrodisias, Turkey"
+city: "Aphrodisias"
+country: "Turkey"
 date: "2014-10-17"
 tags:
   - "turkey"

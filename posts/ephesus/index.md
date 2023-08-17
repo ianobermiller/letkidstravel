@@ -1,5 +1,6 @@
 ---
-title: "Ephesus, Turkey"
+city: "Ephesus"
+country: "Turkey"
 date: "2014-10-03"
 tags:
   - "ephesus"

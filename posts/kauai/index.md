@@ -1,5 +1,7 @@
 ---
 title: "Kauai Part 1: Vacation in Paradise"
+city: "Kauai"
+state: "Hawaii"
 date: "2015-04-12"
 thumbnail: "images/11023811_10100906089037304_1885392912150251764_o.webp"
 ---

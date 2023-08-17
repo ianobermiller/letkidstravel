@@ -1,5 +1,6 @@
 ---
-title: "Santorini, Greece"
+city: "Santorini"
+country: "Greece"
 date: "2014-11-14"
 tags:
   - "ferry"

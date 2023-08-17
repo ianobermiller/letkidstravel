@@ -1,5 +1,6 @@
 ---
-title: "Big Island, Hawaii"
+city: "Big Island"
+state: "Hawaii"
 date: "2015-02-05"
 tags:
   - "big-island"
