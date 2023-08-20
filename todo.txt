@@ -1,1 +1,2 @@
 - Fix images in Istanbul
+- Switch to Tailwind for learning

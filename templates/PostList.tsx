@@ -6,15 +6,15 @@ interface Props {
 
 export function PostList({ posts }: Props) {
   return (
-    <ul className="post-list">
+    <ul className="flex flex-col gap-5 -mx-4 mt-0 bg-stone-200 p-4">
       {posts.map((post) => (
-        <li key={post.path}>
+        <li className="border-4 border-white drop-shadow" key={post.path}>
           <a href={`/${post.slug}/`}>
             <div
-              className="thumbnail"
+              className="bg-cover bg-center h-[30vh] m-1"
               style={{ backgroundImage: `url(${post.thumbnailUrl})` }}
             />
-            <div className="title">{post.title}</div>
+            <div className="text-center p-1 pb-0 bg-white">{post.title}</div>
           </a>
         </li>
       ))}

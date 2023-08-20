@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import { FaInstagram } from "react-icons/fa";
 
 interface Props {
   children: ReactNode;
@@ -15,18 +16,27 @@ export function Layout({ children, headingColor = "dark", title }: Props) {
         <title>{title}</title>
         <link href="/index.css" rel="stylesheet" />
       </head>
-      <body>
-        <header>
-          <h1 className={headingColor}>
+      <body className="mx-3">
+        <header className="flex flex-col">
+          <h1 className="font-display text-5xl my-2">
             <a href="/">Let Kids Travel</a>
           </h1>
-          <aside>
-            <input placeholder="Search..." type="search" />
-            <a href="https://instagram.com/letkidstravel">Insta</a>
+          <aside className="flex gap-2 my-2">
+            <input
+              className="bg-slate-100 rounded-full px-4 py-2 leading-none w-48"
+              placeholder="Search..."
+              type="search"
+            />
+            <a
+              className="bg-slate-100 rounded-full px-2 py-2 leading-none"
+              href="https://instagram.com/letkidstravel"
+            >
+              <FaInstagram title="Follow us on Instagram!" />
+            </a>
           </aside>
         </header>
         {children}
-        <footer>
+        <footer className="py-8">
           Made with love freely given, graciously received, and joyfully shared.
           Copyright &copy; {new Date().getFullYear()}.
         </footer>
