@@ -2,6 +2,7 @@ import { Post } from './components/Post';
 import { PostData } from './types.js';
 import remarkFigureCaption from '@microflash/remark-figure-caption';
 import liveServer from 'live-server';
+import { exec, spawn } from 'node:child_process';
 import { existsSync, watch } from 'node:fs';
 import { cp, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
@@ -157,9 +158,30 @@ async function build(isWatch: boolean, clean: boolean) {
     );
   });
 
-  await buildAndWatch(PUBLIC_DIR, () => {
-    // cp(PUBLIC_DIR, BUILD_DIR, { recursive: true });
+  await buildAndWatch(PUBLIC_DIR, async () => {
+    const publicFiles = await readdir(PUBLIC_DIR);
+    publicFiles
+      .filter(p => p === 'index.css')
+      .forEach(async p => {
+        cp(join(PUBLIC_DIR, p), join(BUILD_DIR, p), { recursive: true });
+      });
   });
+
+  if (isWatch) {
+    spawn('pnpm', [
+      'exec',
+      'tailwindcss',
+      '-i',
+      './public/index.css',
+      '-o',
+      './build/index.css',
+      '--watch',
+    ]);
+  } else {
+    exec(
+      'pnpm exec tailwindcss -i ./public/index.css -o ./build/index.css --minify',
+    );
+  }
 
   isWatch && liveServer.start({ open: false, port: 3000, root: BUILD_DIR });
 }
