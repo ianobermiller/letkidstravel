@@ -1,4 +1,4 @@
-import { Post } from './templates/Post';
+import { Post } from './components/Post';
 import { PostData } from './types.js';
 import remarkFigureCaption from '@microflash/remark-figure-caption';
 import liveServer from 'live-server';
@@ -157,9 +157,9 @@ async function build(isWatch: boolean, clean: boolean) {
     );
   });
 
-  // await buildAndWatch(PUBLIC_DIR, () =>
-  //   cp(PUBLIC_DIR, BUILD_DIR, { recursive: true })
-  // );
+  await buildAndWatch(PUBLIC_DIR, () => {
+    // cp(PUBLIC_DIR, BUILD_DIR, { recursive: true });
+  });
 
   isWatch && liveServer.start({ open: false, port: 3000, root: BUILD_DIR });
 }

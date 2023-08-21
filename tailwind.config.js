@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./{pages,public,templates}/**/*.{html,js,ts,tsx}'],
+  content: ['./{pages,public,components}/**/*.{html,js,ts,tsx}'],
   plugins: [require('@tailwindcss/typography')],
   theme: {
     fontFamily: {

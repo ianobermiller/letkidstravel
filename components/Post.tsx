@@ -1,4 +1,5 @@
 import type { PostData } from '../types';
+import { H2 } from './H2';
 import { Layout } from './Layout';
 import { PostList } from './PostList';
 
@@ -11,7 +12,7 @@ export function Post({ post, relatedPosts }: Props) {
   return (
     <Layout title={`${post.title} - Let Kids Travel`}>
       <article>
-        <h2 className='my-1 font-display text-3xl'>{post.title}</h2>
+        <H2>{post.title}</H2>
 
         <p className='mb-4 text-sm'>{post.date}</p>
 

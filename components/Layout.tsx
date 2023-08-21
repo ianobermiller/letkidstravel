@@ -3,17 +3,16 @@ import { FaInstagram, FaSearch } from 'react-icons/fa';
 
 interface Props {
   children: ReactNode;
-  headingColor?: 'dark' | 'light';
-  title: string;
+  title?: string;
 }
 
-export function Layout({ children, headingColor = 'dark', title }: Props) {
+export function Layout({ children, title }: Props) {
   return (
     <html lang='en'>
       <head>
         <meta charSet='UTF-8' />
         <meta content='width=device-width, initial-scale=1' name='viewport' />
-        <title>{title}</title>
+        <title>{(title ? `${title} - ` : '') + 'Let Kids Travel'}</title>
         <link href='/index.css' rel='stylesheet' />
       </head>
       <body className='mx-3'>

@@ -1,5 +1,7 @@
-import { Layout } from '../templates/Layout';
+import { Layout } from '../components/Layout';
+import { MainHeader } from '../components/MainHeader';
 import { PostData } from '../types';
+import { H2 } from './../components/H2';
 
 interface Props {
   posts: Array<PostData>;
@@ -11,17 +13,12 @@ export default function Destinations({ posts }: Props) {
   ];
 
   return (
-    <Layout headingColor='light' title='Let Kids Travel'>
-      <div className='home-header'>
-        <div className='image' />
-        <div className='blurb'>
-          <span className='wave'>👋</span>Hi, we’re Olivia and Ian. We travel
-          with our four children enjoying architecture, nature, baked goods,
-          coffee, chocolate and most importantly living for Jesus.
-        </div>
-      </div>
+    <Layout title='Destinations'>
+      <MainHeader />
 
-      <ul>
+      <H2>Destinations</H2>
+
+      <ul className='list-disc pl-5'>
         {countries.map(country => {
           const uniqueCities = [
             ...new Set(
@@ -34,7 +31,7 @@ export default function Destinations({ posts }: Props) {
           return (
             <li key={country}>
               {country}
-              <ul>
+              <ul className='list-disc pl-5'>
                 {uniqueCities.map(city => (
                   <li key={city}>{city}</li>
                 ))}
