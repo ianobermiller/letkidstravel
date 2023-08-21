@@ -15,13 +15,13 @@ In Athens we were able to stay in the city center through Airbnb. The location w
 
 Our host provided us with tickets to see the major attractions! It definitely helped us keep down on costs. We hit the Acropolis first as that is what we were most excited about. It was as beautiful as I imagined. However, it was under construction and in keeping with the rest of Greece had a lot of hired people standing around. I would highly recommend it but be sure to wear walking shoes as it is a bit of hike. Also, sun protection and lots of water are a must. My husband was lamenting that he forgot sunglasses and a hat! Wells had a good time posing for pictures and we met a really nice family while we were there who took a lot of our pictures for us! There are lots of different parts to see so I recommend carving out a half day to see everything.
 
-![ ](images/10604680_10100691581502124_2884684932821611773_o.jpeg)
-![ ](images/10623402_10100691583508104_8374925554468561995_o.jpeg)
-![ ](images/10269242_10100691582380364_9002840107060317370_o.jpeg)
-![ ](images/10457681_10100691577894354_3882703718482221517_o.jpeg)
-![ ](images/10265369_10100691578338464_3686022007182793250_o.jpeg)
-![ ](images/10550084_10100691580778574_7054430243812100883_o.jpeg)
-![ ](images/10532816_10100691578273594_6275148287456268638_o.jpeg)
+![](images/10604680_10100691581502124_2884684932821611773_o.jpeg)
+![](images/10623402_10100691583508104_8374925554468561995_o.jpeg)
+![](images/10269242_10100691582380364_9002840107060317370_o.jpeg)
+![](images/10457681_10100691577894354_3882703718482221517_o.jpeg)
+![](images/10265369_10100691578338464_3686022007182793250_o.jpeg)
+![](images/10550084_10100691580778574_7054430243812100883_o.jpeg)
+![Wells with a Ninja Turtle toy](images/10532816_10100691578273594_6275148287456268638_o.jpeg)
 ![Stoa of Attalos from the Acropolis](images/10623484_10100691578073994_4535166237439066279_o.jpeg)
 ![Sunny day at the Acropolis](images/10628717_10100691578538064_8865201268860717616_o.jpeg)
 ![Packer fan at the Acropolis](images/10623595_10100691579251634_1812322016447269913_o.jpeg)

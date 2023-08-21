@@ -10,7 +10,7 @@ tags:
 
 Easter is a big deal in Greece. We were told that we would probably be invited to a local family's festivities. Coming from America this was a totally foreign concept to us, and we didn't believe it would happen, although my husband was holding out hope.
 
-![ ](images/10357645_10100620112731114_5994488491410993604_o.webp)
+![Naxian Sphinx](images/10357645_10100620112731114_5994488491410993604_o.webp)
 
 ![Love Isla's face in this picture](images/10295536_10100620111922734_3899609671944062412_o.webp)
 
@@ -24,7 +24,7 @@ We walked to the grocery store to pick up food as there was a nice one within 
 
 ![The best bread ever!](images/10317582_10100620118813924_7733142544155924154_o.webp)
 
-![The Greek style Frappe](images/10359100_10100620110300984_9048542621364299622_o.webp)
+<!-- ![The Greek style Frappe](images/10359100_10100620110300984_9048542621364299622_o.webp) -->
 
 There is quite a bit to see on Naxos. We decided against renting a car but there is plenty to do on the island if you choose to and more historical sites to see. We found lots to do within walking distance of our hotel, which was just south of the downtown area. We visited the Portara, a beautiful arch facing towards Delos which is Apollo's birthplace. You could go right up to it to see and take pictures. It really makes an awesome site on a sunny day and you can see most of the island. After that we hiked up the mountain to a chapel located there. It looked down all over the town and was breathtaking. It was a pleasant hike but with a baby on your back and toddler to carry can be difficult. Luckily, there was a very nice lady who drove us up to the monastary. Also, she spoke Greek which was so helpful for getting us in. I don't think we could have made it without that ride. The monastary was a nice place to visit on Easter and the nun was very accomodating.
 
@@ -42,7 +42,7 @@ There is quite a bit to see on Naxos. We decided against renting a car but there
 
 ![A cold breeze ](images/10382511_10100620114632304_6432021367836251735_o.webp)
 
-[](images/10321725_10100620111573434_22875198582007704_o.webp)After that as we were walking home and close to our place we stumbled upon a family having Easter dinner. They offered us some amazing food and warm hospitality. They really are kind in Greece, and particularly on the laid back, less touristy islands like Naxos. It was a perfect way to spend Easter, getting a glimpse into this warm culture. My husband and I often wish we had come from such a tight-knit culture.[](images/10397237_10100620111014554_1914890417168710993_o.webp)
+After that as we were walking home and close to our place we stumbled upon a family having Easter dinner. They offered us some amazing food and warm hospitality. They really are kind in Greece, and particularly on the laid back, less touristy islands like Naxos. It was a perfect way to spend Easter, getting a glimpse into this warm culture. My husband and I often wish we had come from such a tight-knit culture.
 
 On another day we visited the town to explore. There was a Venetian castle we visited. The town has so many nooks and crannies to visit. For us it became a daily visit after the first time so we could find the amazing bread. We stayed right by the water and we walked along the beach and spent time playing in the water and sand. It was an idyllic time to rest and recuperate from our journey.
 

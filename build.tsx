@@ -8,11 +8,13 @@ import { cp, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import React from 'react';
 import { renderToString } from 'react-dom/server';
+import rehypeImgSize from 'rehype-img-size';
+import stringify from 'rehype-stringify';
 import remarkFrontmatter from 'remark-frontmatter';
-import remarkHtml from 'remark-html';
 import remarkParse from 'remark-parse';
 import remarkParseFrontmatter from 'remark-parse-frontmatter';
 import { Root } from 'remark-parse/lib';
+import remark2rehype from 'remark-rehype';
 import sharp from 'sharp';
 import { unified } from 'unified';
 import { EXIT, visit } from 'unist-util-visit';
@@ -49,6 +51,7 @@ async function build(isWatch: boolean, clean: boolean) {
       postEntries.map(async postEntry => {
         const slug = postEntry.name;
         const path = join(POSTS_DIR, slug);
+
         const postContent = await readFile(join(path, 'index.md'), 'utf-8');
 
         let thumbnailUrl;
@@ -57,13 +60,15 @@ async function build(isWatch: boolean, clean: boolean) {
           .use(remarkFrontmatter, ['yaml'])
           .use(remarkParseFrontmatter)
           .use(remarkFigureCaption)
-          .use(remarkHtml)
           .use(() => (tree: Root) => {
             visit(tree, 'image', node => {
               thumbnailUrl = node.url;
               return EXIT;
             });
           })
+          .use(remark2rehype)
+          .use(rehypeImgSize, { dir: path })
+          .use(stringify)
           .process(postContent);
 
         const frontmatter = md.data.frontmatter as Record<string, unknown>;
@@ -100,14 +105,17 @@ async function build(isWatch: boolean, clean: boolean) {
               /\.([^.]+)$/,
               '_t.webp',
             );
-            await sharp(inputPath)
-              .resize({
-                fit: 'cover',
-                height: THUMBNAIL_SIZE * 2,
-                width: THUMBNAIL_SIZE * 2,
-              })
-              .webp()
-              .toFile(join(outputDir, thumbnailUrl));
+            const outputPath = join(outputDir, thumbnailUrl);
+            if (!existsSync(outputPath)) {
+              await sharp(inputPath)
+                .resize({
+                  fit: 'cover',
+                  height: THUMBNAIL_SIZE * 2,
+                  width: THUMBNAIL_SIZE * 2,
+                })
+                .webp()
+                .toFile(outputPath);
+            }
             post.thumbnailUrl = '/' + join(post.slug, thumbnailUrl);
           } else {
             post.thumbnailUrl = undefined;
@@ -128,8 +136,10 @@ async function build(isWatch: boolean, clean: boolean) {
           <Post post={post} relatedPosts={getRelatedPosts(posts, post)} />,
         );
 
-        if (existsSync(join(post.path, 'images'))) {
-          await cp(join(post.path, 'images'), join(post.outputDir, 'images'), {
+        const inputImages = join(post.path, 'images');
+        const outputImages = join(post.outputDir, 'images');
+        if (existsSync(inputImages) && !existsSync(outputImages)) {
+          await cp(inputImages, outputImages, {
             recursive: true,
           });
         }

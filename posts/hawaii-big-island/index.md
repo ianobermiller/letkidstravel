@@ -21,7 +21,7 @@ The next winter we were ready to escape the rainy Seattle weather again and head
 
 The Big Island has a lot of attractions to keep your two weeks occupied. We stayed in Kona and rented a car which you definitely need to do. Here are a few suggestions for activities to keep busy. In Hilo they have a [farmers market](http://www.hilofarmersmarket.com/) on Wednesday or Saturday. We coordinated that with a driving tour of a bunch of waterfalls. I would suggest checking the weather before you leave as Hilo's weather is much different than Kona. It was sunny in Kona but downpouring in Hilo. The farmers market was great to visit though and had some great fruits and locally-made products. We also went to the [Hilo zoo](http://www.hilozoo.com/) which is free. There isn't a lot there but Wells enjoyed it and they have a great playground.
 
-![ ](images/946904_10100308579062084_2056751569_n.jpeg)
+![ʻAkaka Falls](images/946904_10100308579062084_2056751569_n.jpeg)
 
 ![Wells saying hello at the zoo](images/11974_10100308578523164_734035742_n.webp)
 
