@@ -1,10 +1,10 @@
 ---
-city: "Oahu"
-state: "Hawaii"
-date: "2015-01-22"
+city: 'Oahu'
+state: 'Hawaii'
+date: '2015-01-22'
 tags:
-  - "hawaii"
-  - "oahu"
+  - 'hawaii'
+  - 'oahu'
 year: 2012
 ---
 

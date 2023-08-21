@@ -14,6 +14,7 @@
   "type": "module",
   "devDependencies": {
     "@microflash/remark-figure-caption": "^1.0.0",
+    "@tailwindcss/typography": "^0.5.9",
     "@types/live-server": "^1.2.1",
     "@types/node": "^20.4.1",
     "@types/react": "^18.2.14",
@@ -26,6 +27,8 @@
     "eslint-plugin-react": "^7.33.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "live-server": "^1.2.2",
+    "prettier": "^3.0.2",
+    "prettier-plugin-tailwindcss": "^0.5.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",

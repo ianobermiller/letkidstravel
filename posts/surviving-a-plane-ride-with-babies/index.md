@@ -1,12 +1,12 @@
 ---
-title: "Surviving a plane ride with babies and toddlers"
-date: "2014-07-02"
+title: 'Surviving a plane ride with babies and toddlers'
+date: '2014-07-02'
 tags:
-  - "distractions"
-  - "flying"
-  - "media"
-  - "plane"
-  - "ziploc"
+  - 'distractions'
+  - 'flying'
+  - 'media'
+  - 'plane'
+  - 'ziploc'
 ---
 
 As you may have guessed we love to travel. Our kids have been flying since they were infants so we've learned quickly what works to avoid the screaming, crying baby.

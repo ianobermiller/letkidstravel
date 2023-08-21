@@ -1,9 +1,9 @@
 ---
-title: "Road Trip, Part 1: Unfamiliar Territory"
-date: "2014-06-13"
+title: 'Road Trip, Part 1: Unfamiliar Territory'
+date: '2014-06-13'
 tags:
-  - "car-travel"
-  - "road-trip"
+  - 'car-travel'
+  - 'road-trip'
 ---
 
 We live in Washington state but grew up in Wisconsin. Consequently, all of our family and college friends are back there. We have always flown to see them a couple of times of year but now that Wellington is over two it is becoming quite expensive, especially in the summer months. We try to keep costs low on these shorter trips to save up for big vacations so we always try to find a really good airfare deal.

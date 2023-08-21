@@ -1,14 +1,14 @@
 ---
-city: "Marmaris"
-country: "Turkey"
-date: "2014-10-24"
+city: 'Marmaris'
+country: 'Turkey'
+date: '2014-10-24'
 tags:
-  - "boat"
-  - "greece"
-  - "turkey"
+  - 'boat'
+  - 'greece'
+  - 'turkey'
 ---
 
-You have faithfully followed our adventure through Turkey. I hope you have enjoyed our journey because now we move to the last Turkish leg and onto our trip through Greece. From [Pamukkale](http://youngmodernmama.com/2014/10/traveling-abroad-pamukkale/ "Traveling Abroad: Pamukkale") we had to first take the shuttle to Denizli and from there a bigger passenger bus to the port city of Marmaris.
+You have faithfully followed our adventure through Turkey. I hope you have enjoyed our journey because now we move to the last Turkish leg and onto our trip through Greece. From [Pamukkale](http://youngmodernmama.com/2014/10/traveling-abroad-pamukkale/ 'Traveling Abroad: Pamukkale') we had to first take the shuttle to Denizli and from there a bigger passenger bus to the port city of Marmaris.
 
 The journey by bus is a long one but it was beautiful to see more of the countryside and it was relatively empty which allowed us to spread out. The total journey time was around four hours. There is a bathroom on the bus and some drinks so it made the bus ride go by smoothly with our potty training boy.
 

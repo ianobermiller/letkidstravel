@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&family=Zilla+Slab&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Zilla+Slab&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,6 +6,6 @@
 
 @layer base {
   html {
-    font-family: "Zilla Slab", ui-serif, serif;
+    font-family: 'Zilla Slab', ui-serif, serif;
   }
 }

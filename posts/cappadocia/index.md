@@ -1,13 +1,13 @@
 ---
-city: "Cappadocia"
-country: "Turkey"
-date: "2014-09-26"
+city: 'Cappadocia'
+country: 'Turkey'
+date: '2014-09-26'
 tags:
-  - "flying"
-  - "turkey"
+  - 'flying'
+  - 'turkey'
 ---
 
-On the next leg of our journey in Turkey we headed east, leaving the European side of [Istanbul](http://youngmodernmama.com/2014/09/traveling-abroad-istanbul/ "Traveling Abroad: Istanbul") for Cappadocia a central region on the Asian side. This is the farthest east my husband and I have ever been. We flew there on Turkish Airlines, and if you ever have a chance to fly Turkish Airlines take it; we had the best experience of our lives! It is quality all around. On our one hour flight we received a meal that included a sandwich, salad, and chocolate mousse for dessert. Also, they had baby food for Isla and fabulous hospitality from the flight attendants. Compared to flying in America this quality was definitely a pleasant surprise.
+On the next leg of our journey in Turkey we headed east, leaving the European side of [Istanbul](http://youngmodernmama.com/2014/09/traveling-abroad-istanbul/ 'Traveling Abroad: Istanbul') for Cappadocia a central region on the Asian side. This is the farthest east my husband and I have ever been. We flew there on Turkish Airlines, and if you ever have a chance to fly Turkish Airlines take it; we had the best experience of our lives! It is quality all around. On our one hour flight we received a meal that included a sandwich, salad, and chocolate mousse for dessert. Also, they had baby food for Isla and fabulous hospitality from the flight attendants. Compared to flying in America this quality was definitely a pleasant surprise.
 
 ![The town of Goreme](images/10313080_10100598776144804_6598000804829799730_n.jpg)
 

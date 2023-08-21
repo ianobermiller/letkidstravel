@@ -1,15 +1,15 @@
 ---
-city: "Istanbul"
-country: "Turkey"
-date: "2014-09-19"
+city: 'Istanbul'
+country: 'Turkey'
+date: '2014-09-19'
 tags:
-  - "baazar"
-  - "hotels"
-  - "istanbul"
-  - "mosque"
-  - "museums"
-  - "simit"
-  - "turkey"
+  - 'baazar'
+  - 'hotels'
+  - 'istanbul'
+  - 'mosque'
+  - 'museums'
+  - 'simit'
+  - 'turkey'
 ---
 
 When we first told our family that we were headed to Turkey and Greece on vacation they had quite a few concerns in regards to the political unrest in Istanbul. However, we had done our research and surmised that it was safe and obviously we would not be involved in any protests. Well, we got to Istanbul and it was safe, not a hint of any kind of trouble; but it was a culture shock in other ways!

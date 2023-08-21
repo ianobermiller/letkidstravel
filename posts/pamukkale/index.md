@@ -1,13 +1,13 @@
 ---
-city: "Pamukkale"
-country: "Turkey"
-date: "2014-10-10"
+city: 'Pamukkale'
+country: 'Turkey'
+date: '2014-10-10'
 tags:
-  - "denizli"
-  - "hierapolis"
-  - "pamukkale"
-  - "ruins"
-  - "turkey"
+  - 'denizli'
+  - 'hierapolis'
+  - 'pamukkale'
+  - 'ruins'
+  - 'turkey'
 ---
 
 After we left Celcuk we headed on a train for Denizli. Once we arrived in Denizli we hopped on a bus (hour ride) for the small town of Pamukkale. It is mostly a resort town from which you can see the travertines of Pamukkale and the ancient Roman city which was built around this amazing wonder. Though there was not much to do in the city but travel to these sites they were breathtaking and worth the hassle of getting there.

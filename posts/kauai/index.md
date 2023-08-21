@@ -1,9 +1,9 @@
 ---
-title: "Kauai Part 1: Vacation in Paradise"
-city: "Kauai"
-state: "Hawaii"
-date: "2015-04-12"
-thumbnail: "images/11023811_10100906089037304_1885392912150251764_o.webp"
+title: 'Kauai Part 1: Vacation in Paradise'
+city: 'Kauai'
+state: 'Hawaii'
+date: '2015-04-12'
+thumbnail: 'images/11023811_10100906089037304_1885392912150251764_o.webp'
 ---
 
 We wanted to take one last vacation as a family of four and Isla has never been to Hawaii. Since Wells has been there twice before we couldn't deprive our little lady of some fun in the sun! We flew a direct flight on Alaska airlines into Lihue. We flew out at 6 p.m. and while our flights normally go well this one wasn't so great. There was an hour delay and we were by all the families so when children would cry Isla could not sleep through that. Also, there was a flight attendant who was not very friendly. It really makes a difference on these flights when there are kind and helpful people to make these experiences go a little more smoothly.
@@ -12,7 +12,7 @@ Even though that experience was not what I would call great the rest of the trip
 
 ![View from our condo ](images/11084152_10100906090399574_7480595116588073648_o.webp)
 
-The first day we just chilled at the condo. We stayed at the Kono Pai Condos. Honestly, a condo is so much easier with kids and more affordable. Isla is very difficult to go out to eat with so the ability to cook all of our meals while enjoying this ocean view is as close to eating out as we want to be. We brought her [Phil & Ted Lobster chair](http://youngmodernmama.com/2015/01/philandteds-lobster/ "phil&teds Lobster") and it worked perfectly as a high chair in the condo. We stayed in Kapaa and we very close to a Safeway and Foodland so we were able to do all of our grocery shopping quickly and easily. The bedroom was in the back of the condo so while the kids napped and kept a normal routine we were still able to enjoy the ocean. The rest of the day we hung out at the beach right by here. My kids love the sand so luckily they could be easily amused for hours.
+The first day we just chilled at the condo. We stayed at the Kono Pai Condos. Honestly, a condo is so much easier with kids and more affordable. Isla is very difficult to go out to eat with so the ability to cook all of our meals while enjoying this ocean view is as close to eating out as we want to be. We brought her [Phil & Ted Lobster chair](http://youngmodernmama.com/2015/01/philandteds-lobster/ 'phil&teds Lobster') and it worked perfectly as a high chair in the condo. We stayed in Kapaa and we very close to a Safeway and Foodland so we were able to do all of our grocery shopping quickly and easily. The bedroom was in the back of the condo so while the kids napped and kept a normal routine we were still able to enjoy the ocean. The rest of the day we hung out at the beach right by here. My kids love the sand so luckily they could be easily amused for hours.
 
 ![Isla loved digging in the sand! ](images/11082255_10100906095194964_3037037691379358993_o.webp)
 

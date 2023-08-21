@@ -1,12 +1,12 @@
 ---
-city: "Aphrodisias"
-country: "Turkey"
-date: "2014-10-17"
+city: 'Aphrodisias'
+country: 'Turkey'
+date: '2014-10-17'
 tags:
-  - "turkey"
+  - 'turkey'
 ---
 
-From [Pamukkale](http://youngmodernmama.com/2014/10/traveling-abroad-pamukkale/ "Traveling Abroad: Pamukkale") we took a day trip to the ancient ruins of Aphrodisias. It is a fairly long dolmush ride each way, about two hours, for which we paid ~80TL for two people. There are many big bus tours that go there but when we were there it was relatively empty, which made for the perfect trip. While it is a difficult journey to make it is incredibly worth the hassle. This city was composed mostly of marble from a large quarry nearby and it was a relatively wealthy city. Even though earthquakes hurt Aphrodisias a great deal, archaeologists have been able to reconstruct a lot of it and really well because of all the marble.
+From [Pamukkale](http://youngmodernmama.com/2014/10/traveling-abroad-pamukkale/ 'Traveling Abroad: Pamukkale') we took a day trip to the ancient ruins of Aphrodisias. It is a fairly long dolmush ride each way, about two hours, for which we paid ~80TL for two people. There are many big bus tours that go there but when we were there it was relatively empty, which made for the perfect trip. While it is a difficult journey to make it is incredibly worth the hassle. This city was composed mostly of marble from a large quarry nearby and it was a relatively wealthy city. Even though earthquakes hurt Aphrodisias a great deal, archaeologists have been able to reconstruct a lot of it and really well because of all the marble.
 
 ![Ruins of Aphrodisias](images/10257097_10100612594886934_3102461613565692220_o.webp)
 

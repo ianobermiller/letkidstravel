@@ -1,15 +1,15 @@
 ---
-city: "Rhodes"
-country: "Greece"
-date: "2014-11-03"
+city: 'Rhodes'
+country: 'Greece'
+date: '2014-11-03'
 tags:
-  - "greece"
-  - "gyro"
-  - "rhodes"
-thumbnail: "images/10258925_10100614723775624_3829972633943088913_o.webp"
+  - 'greece'
+  - 'gyro'
+  - 'rhodes'
+thumbnail: 'images/10258925_10100614723775624_3829972633943088913_o.webp'
 ---
 
-After traveling extensively through Turkey and that [arduous ferry ride](http://youngmodernmama.com/2014/10/traveling-abroad-marmaris/ "Traveling Abroad: Marmaris") we found ourselves in the beautiful ancient city of Rhodes! It felt like we were starting vacation all over again to explore a new country. Instead of a hotel this time we stayed in an [Airbnb rental](https://www.airbnb.com/rooms/1037492). The man met us at the ferry and drove us to the rental. He was very nice and the rental was truly amazing. It was a great value and we each had our own rooms and full kitchen! Plus, it was inside the old city walls, which gives you the feeling of stepping back in time. This was seriously the best decision we could have made. The kids slept so amazingly well. Also, the hosts left fruit, wine, and chocolate. It is always the small touches that really make a difference.
+After traveling extensively through Turkey and that [arduous ferry ride](http://youngmodernmama.com/2014/10/traveling-abroad-marmaris/ 'Traveling Abroad: Marmaris') we found ourselves in the beautiful ancient city of Rhodes! It felt like we were starting vacation all over again to explore a new country. Instead of a hotel this time we stayed in an [Airbnb rental](https://www.airbnb.com/rooms/1037492). The man met us at the ferry and drove us to the rental. He was very nice and the rental was truly amazing. It was a great value and we each had our own rooms and full kitchen! Plus, it was inside the old city walls, which gives you the feeling of stepping back in time. This was seriously the best decision we could have made. The kids slept so amazingly well. Also, the hosts left fruit, wine, and chocolate. It is always the small touches that really make a difference.
 
 For food, well that was easy because we were so excited to try gyros and were they ever worth the wait! I could eat one everyday and be very happy. Luckily, they are everywhere and on Rhodes they were 2.50 euro. They come packed with chicken or lamb, tomatoes, onions, lettuce, tzatziki sauce, and, of all things, french fries. They are always freshly made and the kids loved them, too. We also stopped at a supermarket (they are only in the new town) to buy some delicious olives. For breakfast we had fresh fruit and bought some eggs at the supermarket as well.
 

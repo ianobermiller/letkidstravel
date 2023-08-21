@@ -1,4 +1,4 @@
-import { PostData } from "../types";
+import { PostData } from '../types';
 
 interface Props {
   posts: PostData[];
@@ -6,15 +6,17 @@ interface Props {
 
 export function PostList({ posts }: Props) {
   return (
-    <ul className="flex flex-col gap-5 -mx-4 mt-0 bg-stone-200 p-4">
-      {posts.map((post) => (
-        <li className="border-4 border-white drop-shadow" key={post.path}>
-          <a href={`/${post.slug}/`}>
-            <div
-              className="bg-cover bg-center h-[30vh] m-1"
-              style={{ backgroundImage: `url(${post.thumbnailUrl})` }}
+    <ul className='-mx-4 mt-0 grid items-start justify-center gap-4 bg-stone-200 p-4 sm:grid-cols-2 md:grid-cols-3'>
+      {posts.map(post => (
+        <li
+          className='inline-block min-w-0 border-8 border-white drop-shadow'
+          key={post.path}>
+          <a className='inline-flex flex-col' href={`/${post.slug}/`}>
+            <img
+              className='object-cover object-center'
+              src={post.thumbnailUrl}
             />
-            <div className="text-center p-1 pb-0 bg-white">{post.title}</div>
+            <div className='bg-white p-1 pb-0 text-center'>{post.title}</div>
           </a>
         </li>
       ))}

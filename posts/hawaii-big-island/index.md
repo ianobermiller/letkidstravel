@@ -1,17 +1,17 @@
 ---
-city: "Big Island"
-state: "Hawaii"
-date: "2015-02-05"
+city: 'Big Island'
+state: 'Hawaii'
+date: '2015-02-05'
 tags:
-  - "big-island"
-  - "coffee"
-  - "farmers-market"
-  - "hawaii"
-  - "macadamia-nuts"
-  - "stargazing"
-  - "volcano"
-  - "zoo"
-thumbnail: "images/944777_10100308577390434_1662390866_n.jpeg"
+  - 'big-island'
+  - 'coffee'
+  - 'farmers-market'
+  - 'hawaii'
+  - 'macadamia-nuts'
+  - 'stargazing'
+  - 'volcano'
+  - 'zoo'
+thumbnail: 'images/944777_10100308577390434_1662390866_n.jpeg'
 year: 2013
 ---
 

@@ -1,25 +1,25 @@
-import { Post } from "./templates/Post";
-import { PostData } from "./types.js";
-import remarkFigureCaption from "@microflash/remark-figure-caption";
-import liveServer from "live-server";
-import { existsSync, watch } from "node:fs";
-import { cp, mkdir, readFile, readdir, rm, writeFile } from "node:fs/promises";
-import { dirname, join } from "node:path";
-import React from "react";
-import { renderToString } from "react-dom/server";
-import remarkFrontmatter from "remark-frontmatter";
-import remarkHtml from "remark-html";
-import remarkParse from "remark-parse";
-import remarkParseFrontmatter from "remark-parse-frontmatter";
-import { Root } from "remark-parse/lib";
-import sharp from "sharp";
-import { unified } from "unified";
-import { EXIT, visit } from "unist-util-visit";
+import { Post } from './templates/Post';
+import { PostData } from './types.js';
+import remarkFigureCaption from '@microflash/remark-figure-caption';
+import liveServer from 'live-server';
+import { existsSync, watch } from 'node:fs';
+import { cp, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
+import { dirname, join } from 'node:path';
+import React from 'react';
+import { renderToString } from 'react-dom/server';
+import remarkFrontmatter from 'remark-frontmatter';
+import remarkHtml from 'remark-html';
+import remarkParse from 'remark-parse';
+import remarkParseFrontmatter from 'remark-parse-frontmatter';
+import { Root } from 'remark-parse/lib';
+import sharp from 'sharp';
+import { unified } from 'unified';
+import { EXIT, visit } from 'unist-util-visit';
 
-const PAGES_DIR = "./pages";
-const POSTS_DIR = "./posts";
-const PUBLIC_DIR = "./public";
-const BUILD_DIR = "./build";
+const PAGES_DIR = './pages';
+const POSTS_DIR = './posts';
+const PUBLIC_DIR = './public';
+const BUILD_DIR = './build';
 
 const THUMBNAIL_SIZE = 600;
 
@@ -42,23 +42,23 @@ async function build(isWatch: boolean, clean: boolean) {
   await buildAndWatch(POSTS_DIR, async () => {
     const postEntries = (
       await readdir(POSTS_DIR, { withFileTypes: true })
-    ).filter((e) => e.isDirectory() && !e.name.startsWith("."));
+    ).filter(e => e.isDirectory() && !e.name.startsWith('.'));
 
     const posts = await Promise.all(
-      postEntries.map(async (postEntry) => {
+      postEntries.map(async postEntry => {
         const slug = postEntry.name;
         const path = join(POSTS_DIR, slug);
-        const postContent = await readFile(join(path, "index.md"), "utf-8");
+        const postContent = await readFile(join(path, 'index.md'), 'utf-8');
 
         let thumbnailUrl;
         const md = await unified()
           .use(remarkParse)
-          .use(remarkFrontmatter, ["yaml"])
+          .use(remarkFrontmatter, ['yaml'])
           .use(remarkParseFrontmatter)
           .use(remarkFigureCaption)
           .use(remarkHtml)
           .use(() => (tree: Root) => {
-            visit(tree, "image", (node) => {
+            visit(tree, 'image', node => {
               thumbnailUrl = node.url;
               return EXIT;
             });
@@ -69,16 +69,16 @@ async function build(isWatch: boolean, clean: boolean) {
 
         const outputDir = join(BUILD_DIR, slug);
         const post: PostData = {
-          city: String(frontmatter.city || ""),
-          country: String(frontmatter.country || ""),
+          city: String(frontmatter.city || ''),
+          country: String(frontmatter.country || ''),
           date: String(frontmatter.date),
           html: md.toString(),
           outputDir,
           path,
           slug,
-          state: String(frontmatter.state || ""),
+          state: String(frontmatter.state || ''),
           tags: new Set(
-            Array.isArray(frontmatter.tags) ? frontmatter.tags.map(String) : []
+            Array.isArray(frontmatter.tags) ? frontmatter.tags.map(String) : [],
           ),
           thumbnailUrl: frontmatter.thumbnail
             ? String(frontmatter.thumbnail)
@@ -90,70 +90,70 @@ async function build(isWatch: boolean, clean: boolean) {
               }`,
         };
 
-        await mkdir(join(post.outputDir, "images"), { recursive: true });
+        await mkdir(join(post.outputDir, 'images'), { recursive: true });
 
         if (post.thumbnailUrl) {
           const inputPath = join(post.path, post.thumbnailUrl);
           if (existsSync(inputPath)) {
             const thumbnailUrl = post.thumbnailUrl.replace(
               /\.([^.]+)$/,
-              "_t.webp"
+              '_t.webp',
             );
             await sharp(inputPath)
               .resize({
-                fit: "cover",
+                fit: 'cover',
                 height: THUMBNAIL_SIZE * 2,
                 width: THUMBNAIL_SIZE * 2,
               })
               .webp()
               .toFile(join(outputDir, thumbnailUrl));
-            post.thumbnailUrl = "/" + join(post.slug, thumbnailUrl);
+            post.thumbnailUrl = '/' + join(post.slug, thumbnailUrl);
           } else {
             post.thumbnailUrl = undefined;
           }
         }
 
         return post;
-      })
+      }),
     );
 
     posts.sort(
-      (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+      (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime(),
     );
 
     await Promise.all(
-      posts.map(async (post) => {
+      posts.map(async post => {
         const output = renderPage(
-          <Post post={post} relatedPosts={getRelatedPosts(posts, post)} />
+          <Post post={post} relatedPosts={getRelatedPosts(posts, post)} />,
         );
 
-        if (existsSync(join(post.path, "images"))) {
-          await cp(join(post.path, "images"), join(post.outputDir, "images"), {
+        if (existsSync(join(post.path, 'images'))) {
+          await cp(join(post.path, 'images'), join(post.outputDir, 'images'), {
             recursive: true,
           });
         }
 
-        await writeFile(join(post.outputDir, "index.html"), output);
-      })
+        await writeFile(join(post.outputDir, 'index.html'), output);
+      }),
     );
 
     // Pages
     const pageFiles = await readdir(PAGES_DIR);
     await Promise.all(
       pageFiles
-        .filter((file) => file.endsWith(".tsx"))
-        .map(async (file) => {
+        .filter(file => file.endsWith('.tsx'))
+        .map(async file => {
           const Component = (await import(`${PAGES_DIR}/${file}`)).default;
           const path = join(
             BUILD_DIR,
-            file === "index.tsx"
-              ? "index.html"
-              : file.toLowerCase().replace(/\.tsx$/, "/index.html")
+            file === 'index.tsx'
+              ? 'index.html'
+              : file.toLowerCase().replace(/\.tsx$/, '/index.html'),
           );
 
           await mkdir(dirname(path), { recursive: true });
           await writeFile(path, renderPage(<Component posts={posts} />));
-        })
+        }),
     );
   });
 
@@ -173,14 +173,14 @@ const countByTag = new Map<string, number>();
 
 function getRelatedPosts(posts: PostData[], post: PostData): PostData[] {
   if (!countByTag.size) {
-    posts.forEach((p) =>
-      p.tags.forEach((t) => countByTag.set(t, (countByTag.get(t) ?? 0) + 1))
+    posts.forEach(p =>
+      p.tags.forEach(t => countByTag.set(t, (countByTag.get(t) ?? 0) + 1)),
     );
   }
 
   const targetTags = post.tags;
   return posts
-    .filter((p) => p !== post)
+    .filter(p => p !== post)
     .sort((a, b) => {
       return scorePost(b, targetTags) - scorePost(a, targetTags);
     })
@@ -198,4 +198,4 @@ function scorePost(post: PostData, targetTags: Set<string>): number {
   return total;
 }
 
-build(process.argv.includes("--watch"), process.argv.includes("--clean"));
+build(process.argv.includes('--watch'), process.argv.includes('--clean'));

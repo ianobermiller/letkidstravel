@@ -1,1 +1,1 @@
-declare module "@microflash/remark-figure-caption";
+declare module '@microflash/remark-figure-caption';

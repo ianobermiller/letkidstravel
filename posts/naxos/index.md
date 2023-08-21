@@ -1,11 +1,11 @@
 ---
-title: "Easter on Naxos, Greece"
-city: "Naxos"
-country: "Greece"
-date: "2015-01-02"
+title: 'Easter on Naxos, Greece'
+city: 'Naxos'
+country: 'Greece'
+date: '2015-01-02'
 tags:
-  - "greece"
-  - "naxos"
+  - 'greece'
+  - 'naxos'
 ---
 
 Easter is a big deal in Greece. We were told that we would probably be invited to a local family's festivities. Coming from America this was a totally foreign concept to us, and we didn't believe it would happen, although my husband was holding out hope.

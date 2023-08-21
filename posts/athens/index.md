@@ -1,12 +1,12 @@
 ---
-country: "Greece"
-city: "Athens"
-date: "2015-01-10"
+country: 'Greece'
+city: 'Athens'
+date: '2015-01-10'
 tags:
-  - "athens"
-  - "greece"
-  - "ruins"
-thumbnail: "images/10530646_10100691579685764_7154797305043595462_o.jpeg"
+  - 'athens'
+  - 'greece'
+  - 'ruins'
+thumbnail: 'images/10530646_10100691579685764_7154797305043595462_o.jpeg'
 ---
 
 We have come to the last city on our European adventure of 2014. Hard to believe we went to all these cities. I am so happy to have blogged about it so the memories will always be there. I am a little sad writing this one as I fear it could be our last Europe trip for a long time. I mean travelling to Europe with 3 kids seems like a daunting prospect. I think I will just cross my fingers that my husband's job will one day be there and we will have the chance to call Europe home. For now I will give this last account.

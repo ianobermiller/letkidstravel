@@ -1,10 +1,10 @@
 ---
-city: "Paros"
-country: "Greece"
-date: "2014-12-12"
+city: 'Paros'
+country: 'Greece'
+date: '2014-12-12'
 tags:
-  - "greece"
-thumbnail: "images/10293734_10100618461445304_2826954455860443267_o.webp"
+  - 'greece'
+thumbnail: 'images/10293734_10100618461445304_2826954455860443267_o.webp'
 ---
 
 After leaving Santorini we took a ferry to the less-traveled island of Paros. There were fewer archaeological sites to see and we spent most of our time just experiencing the Greek way of life. We rode in on a Blue Star Ferry, which confirmed for us there is no better way to travel. It was pouring when we arrived and did so most of the next day. We were leaving the day after so we had no choice but to venture out and see the sites. Thankfully [Hotel Oasis](http://www.tripadvisor.com/Hotel_Review-g642171-d6694928-Reviews-Hotel_Oasis-Parikia_Paros_Cyclades.html) was literally steps from the port in Parikia, and we got inside during a little break in the rain before it began to pour again. The room was a little buggy, but we enjoyed the ocean view and spacious corner suite.
