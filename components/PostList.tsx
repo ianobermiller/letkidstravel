@@ -6,8 +6,8 @@ interface Props {
 
 export function PostList({ posts }: Props) {
   return (
-    <div className='bg-stone-200'>
-      <ul className='grid max-w-5xl items-start justify-center gap-4 px-4 py-4 sm:grid-cols-2 md:grid-cols-3 lg:mx-auto lg:px-0'>
+    <div className='bg-stone-200 px-3'>
+      <ul className='grid max-w-5xl items-start justify-center gap-4 py-4 sm:grid-cols-2 md:grid-cols-3 lg:mx-auto'>
         {posts.map(post => (
           <li
             className='inline-block min-w-0 bg-white p-3 drop-shadow sm:rotate-1 sm:odd:-rotate-1 sm:[&:nth-child(4n)]:rotate-2 sm:[&:nth-child(5n)]:-rotate-2'
