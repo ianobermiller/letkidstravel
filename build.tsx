@@ -1,8 +1,6 @@
 import { Post } from './components/Post';
 import { PostData } from './types.js';
 import remarkFigureCaption from '@microflash/remark-figure-caption';
-import liveServer from 'live-server';
-import { exec, spawn } from 'node:child_process';
 import { existsSync, watch } from 'node:fs';
 import { cp, mkdir, readFile, readdir, rm, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
@@ -138,10 +136,14 @@ async function build(isWatch: boolean, clean: boolean) {
 
         const inputImages = join(post.path, 'images');
         const outputImages = join(post.outputDir, 'images');
-        if (existsSync(inputImages) && !existsSync(outputImages)) {
-          await cp(inputImages, outputImages, {
-            recursive: true,
-          });
+        if (existsSync(inputImages)) {
+          // Only copy each image if it doesn't exist
+          const images = await readdir(inputImages);
+          for (const image of images) {
+            const outputPath = join(outputImages, image);
+            if (existsSync(outputPath)) continue;
+            await cp(join(inputImages, image), outputPath);
+          }
         }
 
         await writeFile(join(post.outputDir, 'index.html'), output);
@@ -154,6 +156,7 @@ async function build(isWatch: boolean, clean: boolean) {
       pageFiles
         .filter(file => file.endsWith('.tsx'))
         .map(async file => {
+          // delete require.cache[require.resolve(`${PAGES_DIR}/${file}`)];
           const Component = (await import(`${PAGES_DIR}/${file}`)).default;
           const path = join(
             BUILD_DIR,
@@ -176,24 +179,6 @@ async function build(isWatch: boolean, clean: boolean) {
         cp(join(PUBLIC_DIR, p), join(BUILD_DIR, p), { recursive: true });
       });
   });
-
-  if (isWatch) {
-    spawn('pnpm', [
-      'exec',
-      'tailwindcss',
-      '-i',
-      './public/index.css',
-      '-o',
-      './build/index.css',
-      '--watch',
-    ]);
-  } else {
-    exec(
-      'pnpm exec tailwindcss -i ./public/index.css -o ./build/index.css --minify',
-    );
-  }
-
-  isWatch && liveServer.start({ open: false, port: 3000, root: BUILD_DIR });
 }
 
 function renderPage(page: React.ReactElement) {

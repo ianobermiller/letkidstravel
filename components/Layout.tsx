@@ -36,7 +36,7 @@ export function Layout({ children, title }: Props) {
           </header>
         </section>
         {children}
-        <section className='mt-4 border-t px-3'>
+        <section className='border-t px-3'>
           <footer className='mx-3 max-w-5xl py-8 lg:mx-auto'>
             Made with love freely given, graciously received, and joyfully
             shared. Copyright &copy; {new Date().getFullYear()}.
