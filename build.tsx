@@ -28,7 +28,7 @@ async function build(isWatch: boolean, clean: boolean) {
   if (clean) await rm(BUILD_DIR, { force: true, recursive: true });
 
   async function buildAndWatch(path: string, callback: () => Promise<void>) {
-    console.log(`Watching ${path}...`);
+    console.log(`${isWatch ? 'Watching' : 'Building'} ${path}...`);
 
     await callback();
 
@@ -161,7 +161,7 @@ async function build(isWatch: boolean, clean: boolean) {
   await buildAndWatch(PUBLIC_DIR, async () => {
     const publicFiles = await readdir(PUBLIC_DIR);
     publicFiles
-      .filter(p => p === 'index.css')
+      .filter(p => p !== 'index.css')
       .forEach(async p => {
         cp(join(PUBLIC_DIR, p), join(BUILD_DIR, p), { recursive: true });
       });
