@@ -6,20 +6,24 @@ interface Props {
 
 export function PostList({ posts }: Props) {
   return (
-    <ul className='-mx-4 mt-0 grid items-start justify-center gap-4 bg-stone-200 p-4 sm:grid-cols-2 md:grid-cols-3'>
-      {posts.map(post => (
-        <li
-          className='inline-block min-w-0 border-8 border-white drop-shadow'
-          key={post.path}>
-          <a className='inline-flex flex-col' href={`/${post.slug}/`}>
-            <img
-              className='object-cover object-center'
-              src={post.thumbnailUrl}
-            />
-            <div className='bg-white p-1 pb-0 text-center'>{post.title}</div>
-          </a>
-        </li>
-      ))}
-    </ul>
+    <div className='bg-stone-200'>
+      <ul className='grid max-w-5xl items-start justify-center gap-4 px-4 py-4 sm:grid-cols-2 md:grid-cols-3 lg:mx-auto lg:px-0'>
+        {posts.map(post => (
+          <li
+            className='inline-block min-w-0 bg-white p-3 drop-shadow sm:rotate-1 sm:odd:-rotate-1 sm:[&:nth-child(4n)]:rotate-2 sm:[&:nth-child(5n)]:-rotate-2'
+            key={post.path}>
+            <a className='inline-flex flex-col' href={`/${post.slug}/`}>
+              <img
+                className='object-cover object-center'
+                src={post.thumbnailUrl}
+              />
+              <h3 className='balanced bg-white p-3 pb-0 text-center'>
+                {post.title}
+              </h3>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 }

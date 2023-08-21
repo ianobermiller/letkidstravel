@@ -11,7 +11,7 @@ interface Props {
 export function Post({ post, relatedPosts }: Props) {
   return (
     <Layout title={`${post.title} - Let Kids Travel`}>
-      <article>
+      <article className='mx-auto max-w-prose px-3'>
         <H2>{post.title}</H2>
 
         <p className='mb-4 text-sm'>{post.date}</p>
