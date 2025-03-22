@@ -9,6 +9,7 @@ import { renderToString } from 'react-dom/server';
 import rehypeImgSize from 'rehype-img-size';
 import stringify from 'rehype-stringify';
 import remarkFrontmatter from 'remark-frontmatter';
+import remarkGfm from 'remark-gfm';
 import remarkParse from 'remark-parse';
 import remarkParseFrontmatter from 'remark-parse-frontmatter';
 import { Root } from 'remark-parse/lib';
@@ -55,6 +56,7 @@ async function build(isWatch: boolean, clean: boolean) {
         let thumbnailUrl;
         const md = await unified()
           .use(remarkParse)
+          .use(remarkGfm)
           .use(remarkFrontmatter, ['yaml'])
           .use(remarkParseFrontmatter)
           .use(remarkFigureCaption)
