@@ -10,7 +10,7 @@
     "lint": "eslint '**/*.ts' '**/*.tsx'",
     "tw-base": "tailwindcss -i ./public/index.css -o ./build/index.css",
     "watch": "concurrently \"npm:watch-*\"",
-    "watch-serve": "pnpm exec live-server --port=3000 ./build",
+    "watch-serve": "pnpm exec live-server ./build",
     "watch-main": "tsx watch --clear-screen=false build.tsx --watch ",
     "watch-tw": "pnpm run tw-base -- --watch"
   },
